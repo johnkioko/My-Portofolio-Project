@@ -1,6 +1,11 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
+  
+}
+
+*{
+    text-decoration: none;
 }
 
 body {
@@ -30,6 +35,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     margin: 20px;
+    color: #fff;
   }
 
   .hamberg {
@@ -109,7 +115,7 @@ body {
     width: 120px;
     height: 120px;
     left: -80px;
-    top: 90px;
+    top: 100px;
     background: #fff;
     filter: blur(30px);
   }
