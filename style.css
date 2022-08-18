@@ -1,0 +1,121 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(12, 12, 88);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 550px) {
+  .navbar {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .nav-left {
+    width: 81px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 20px;
+    color: #fff;
+  }
+
+  .hamberg {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 20px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+  }
+
+  .header-section h1 {
+    width: 327px;
+    height: 55px;
+    position: relative;
+    left: -20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #7d73fc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .header-section {
+    margin: auto;
+    width: 80%;
+    height: 200px;
+  }
+
+  .header-section h2 {
+    width: 327px;
+    height: 87px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #edecff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .header-section p {
+    width: 327px;
+    height: 170px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #c8c8d4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .eclipse {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: -90px;
+    top: 90;
+    background: #edecff;
+    filter: blur(30px);
+  }
+}
