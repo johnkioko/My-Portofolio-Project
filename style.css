@@ -1,11 +1,10 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
-  
 }
 
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
 }
 
 body {
@@ -116,7 +115,7 @@ body {
     height: 130px;
     left: -90px;
     top: 90;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(30px);
   }
 }
