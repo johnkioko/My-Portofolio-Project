@@ -1,17 +1,18 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
-  }
-  
+}
+
 body {
   background-color: rgb(12, 12, 88);
   color: #fff;
   padding: 0;
   margin: 0;
-  }
+}
 
-@media(max-width:550px) {
-  .navbar{
+@media(max-width: 550px) {
+
+  .navbar {
     display: flex;
     width: 100%;
     flex-flow: row;
@@ -33,7 +34,7 @@ body {
   }
 
   .hamberg {
-    display:flex;
+    display: flex;
     width: 30px;
     height: 30px;
     flex-flow: column nowrap;
@@ -42,7 +43,7 @@ body {
     margin: 20px 20px;
   }
 
-  .bar { 
+  .bar {
     width: 25px;
     height: 2px;
     background: #fff;
