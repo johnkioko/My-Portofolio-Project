@@ -112,11 +112,11 @@ body {
 
   .eclipse {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    left: -80px;
-    top: 100px;
-    background: #fff;
+    width: 130px;
+    height: 130px;
+    left: -90px;
+    top: 90;
+    background: #EDECFF;
     filter: blur(30px);
   }
 }
