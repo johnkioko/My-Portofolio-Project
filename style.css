@@ -10,8 +10,7 @@ body {
   margin: 0;
 }
 
-@media(max-width: 550px) {
-
+@media (max-width: 550px) {
   .navbar {
     display: flex;
     width: 100%;
