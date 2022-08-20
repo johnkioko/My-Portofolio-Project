@@ -206,7 +206,7 @@ ul li {
 .white-bg {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #fff, #fff),url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
 }
 
 .posts {
