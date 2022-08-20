@@ -75,7 +75,7 @@ hr {
   width: 20%;
   right: 22%;
   overflow: hidden;
- }  
+}
 
 .header-section {
   width: 80%;
@@ -206,9 +206,7 @@ ul li {
 .white-bg {
   width: 327px;
   height: 236px;
-  background: 
-    linear-gradient(0deg, #fff, #fff),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #fff, #fff),url(image_processing20200716-21735-f07s4k.png);
 }
 
 .posts {
@@ -279,4 +277,3 @@ ul li {
   background-color: #fff;
   color: #9490ff;
 }
-
