@@ -25,7 +25,7 @@ body {
   background-color: rgb(12, 12, 88);
   color: #fff;
   padding-top: 20px;
-  overflow: hidden;
+  
 }
 
 hr {
@@ -80,12 +80,15 @@ hr {
       height: 20%;
       width: 20%;
       right: 22%;
+      overflow: hidden;
+      Z-index: 2;
 
     }
 
   .header-section {
     width: 80%;
     height: auto;
+    overflow: hidden;
   }
 
   .header-section h1 {
@@ -134,6 +137,8 @@ hr {
   height: auto;
   display: grid;
   grid-template-columns:50% 50%;
+  overflow: hidden;
+  
   }
 
 ul li {
@@ -211,9 +216,9 @@ height: 729px;
 
 .white-bg {
   width: 327px;
-height: 236px;
-background: linear-gradient (0deg, #FFFFFF, #FFFFFF),
- url(image_processing20200716-21735-f07s4k.png);
+  height: 236px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+   url(image_processing20200716-21735-f07s4k.png);
 }
 
 .posts {
@@ -285,3 +290,4 @@ height: 40px;
   background-color: #fff;
   color:#9490FF;
 }
+
