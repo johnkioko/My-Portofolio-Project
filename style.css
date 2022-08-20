@@ -1,6 +1,5 @@
 html {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Inter', sans-serif;
   font-size: 62.5%;
 }
 
@@ -23,106 +22,106 @@ body {
   align-items: center;
   background-color: rgb(12, 12, 88);
   color: #fff;
-  padding-top: 20px; 
-}
+  padding-top: 20px;
+   }
 
 hr {
   border: 0.5px solid #646369;
 }
 
 .navbar {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 375px;
-      justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 375px;
+        justify-content: space-between;
   }
 
 .nav-left {
-      width: 81px;
-      height: 16px;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin: 20px;
-      color: #fff;
+        width: 81px;
+        height: 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin: 20px;
+        color: #fff;
   }
 
 .hamberg {
-      width: 66px;
-      height: 66px;
+        width: 66px;
+        height: 66px;
   }
 
   .eclipse-1 {
-      background-image: url('images/Ellipse_18.png');
-      background-repeat: no-repeat;
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      left: 34.5%;
-      top: 68px;
-    }
-  
-    .ellipse-2 {
-        background-image: url('images/Ellipse_19.png');
+        background-image: url('images/Ellipse_18.png');
         background-repeat: no-repeat;
         position: absolute;
-        height: 20%;
-        width: 20%;
-        right: 22%;
-        overflow: hidden;
+        height: 200px;
+        width: 200px;
+        left: 34.5%;
+        top: 68px;
+  }
+
+    .ellipse-2 {
+          background-image: url('images/Ellipse_19.png');
+          background-repeat: no-repeat;
+          position: absolute;
+          height: 20%;
+          width: 20%;
+          right: 22%;
+          overflow: hidden;
    }
 
 .header-section {
-      width: 80%;
-      height: auto;
-      overflow: hidden;
+        width: 80%;
+        height: auto;
+        overflow: hidden;
 }
 
   .header-section h1 {
-      position: relative;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 72px;
-      text-align: center;
-      letter-spacing: 0.37px;
-      color: #7d73fc;
+        position: relative;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        letter-spacing: 0.37px;
+        color: #7d73fc;
 }
 
   .header-section h2 {
-      width: 327px;
-      height: 87px;
-      position: relative;
-      top: -20px;
-      left: 10px;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 32px;
-      line-height: 44px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      color: #edecff;
-      flex: none;
-      order: 1;
-      flex-grow: 0;
+        width: 327px;
+        height: 87px;
+        position: relative;
+        top: -20px;
+        left: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #edecff;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
 }
 
   .header-section p {
-      width: 327px;
-      height: 170px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #c8c8d4;
+        width: 327px;
+        height: 170px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #c8c8d4;
   }
 
 .skills-section {
@@ -157,7 +156,7 @@ ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 7.74194px 0px;
+  padding: 7.74194px 0;
   width: 73.55px;
   height: 30.97px;
 }
@@ -173,43 +172,44 @@ ul li {
 }
 
 .arrow-bottom img {
-     justify-content: center;
-     align-items: center;
-     padding: 20px 0;
-     gap: 20px;
-     height: 40px;
+       justify-content: center;
+       align-items: center;
+       padding: 20px 0;
+       gap: 20px;
+       height: 40px;
 }
 
 .my-work p {
-  width: 327px;
-  height: 104px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #9490ff;
-  margin: 40px 0 20px;
+    width: 327px;
+    height: 104px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #9490ff;
+    margin: 40px 0 20px;
 }
 
 .post-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 24px;
-  margin-bottom: 40px;
-  width: 327px;
-  height: 729px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    margin-bottom: 40px;
+    width: 327px;
+    height: 729px;
 }
 
 .white-bg {
-      width: 327px;
-      height: 236px;
-      background: linear-gradient(0deg, #fff, #fff),
-      url(image_processing20200716-21735-f07s4k.png);
-}
+        width: 327px;
+        height: 236px;
+        background: 
+        linear-gradient(0deg, #fff, #fff),
+        url(image_processing20200716-21735-f07s4k.png);
+    }
 
 .posts {
   display: flex;
@@ -219,7 +219,7 @@ ul li {
 .posts h2 {
   width: 327px;
   height: 105px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -235,7 +235,7 @@ ul li {
 .posts p {
   width: 327px;
   height: 204px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
