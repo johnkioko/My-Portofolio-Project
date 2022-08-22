@@ -1,6 +1,8 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
+  padding: 0;
+  margin: 0;
 }
 
 * {
@@ -8,8 +10,6 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
   padding: 0;
   margin: 0;
 }
@@ -17,7 +17,7 @@ body {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  width: 375px;
+  /* width: 375px; */
   height: auto;
   align-items: center;
   background-color: rgb(12, 12, 88);
@@ -29,12 +29,14 @@ hr {
   border: 0.5px solid #646369;
 }
 
+
+
 .navbar {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 375px;
-  justify-content: space-between;
+  width: 100%;
+  gap: 200px;
+  
 }
 
 .nav-left {
@@ -48,7 +50,6 @@ hr {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 20px;
   color: #fff;
 }
 
@@ -58,13 +59,13 @@ hr {
 }
 
 .eclipse-1 {
-  background-image: url('images/Ellipse_18.png');
-  background-repeat: no-repeat;
   position: absolute;
-  height: 200px;
-  width: 200px;
-  left: 34.5%;
+  height: 250px;
+  width: 100px;
+  left: -15px;
   top: 68px;
+  border-radius: 50%;
+  border: green solid 3px;
 }
 
 .ellipse-2 {
@@ -84,7 +85,8 @@ hr {
 }
 
 .header-section h1 {
-  position: relative;
+  display: flex;
+  justify-content: center;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -114,6 +116,8 @@ hr {
 }
 
 .header-section p {
+  display: flex;
+  justify-content: center;
   width: 327px;
   height: 170px;
   font-style: normal;
@@ -122,6 +126,7 @@ hr {
   line-height: 28px;
   text-align: center;
   color: #c8c8d4;
+  padding: 0;
 }
 
 .skills-section {
@@ -153,12 +158,11 @@ ul li {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 7.74194px 0;
   width: 73.55px;
   height: 30.97px;
+  
 }
 
 .icons-section {
@@ -242,8 +246,6 @@ ul li {
 }
 
 .posts .tags {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -251,11 +253,12 @@ ul li {
   height: 40px;
 }
 
-.posts .tags li {
+.tags-list {
   font-size: 24px;
-  width: fit-content;
-  border-left: 2px #555 solid;
+  /* border-left: 2px #555 solid; */
   padding-left: 10px;
+  float: left;
+  /* border: green solid 2px; */
 }
 
 .posts .tags li:first-child {
@@ -282,3 +285,120 @@ ul li {
   background-color: #fff;
   color: #9490ff;
 }
+
+.form-section{
+  border: red solid 3px;
+  color:#dcdce8
+}
+
+.contactus-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 824px;
+  background-color:#191765; 
+
+
+  padding: 120px 24px;
+  gap: 40px;
+  position: absolute;
+  
+  left: 0px;
+  /* top: 4516px; */
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 164px;
+}
+
+.contact-us h1 {
+  width: 327px;
+  height: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9390FF;
+}
+
+.contact-us p {
+  width: 327px;
+  height: 105px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #F5F5FF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin-top: 40px;
+  gap: 24px;
+  width: 327px;
+  height: 292px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;   
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  /* position: absolute;
+  height: 48px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 48px/2); */
+}
+
+input:focus ,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button{  
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
