@@ -12,6 +12,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background: #191765;
 }
 
 .main-wrapper {
@@ -20,7 +21,6 @@ body {
   /* width: 375px; */
   height: auto;
   align-items: center;
-  background-color: rgb(12, 12, 88);
   color: #fff;
   padding-top: 20px;
 }
@@ -65,7 +65,6 @@ hr {
   left: -15px;
   top: 68px;
   border-radius: 50%;
-  border: green solid 3px;
 }
 
 .ellipse-2 {
@@ -162,7 +161,6 @@ ul li {
   padding: 7.74194px 0;
   width: 73.55px;
   height: 30.97px;
-  
 }
 
 .icons-section {
@@ -255,10 +253,8 @@ ul li {
 
 .tags-list {
   font-size: 24px;
-  /* border-left: 2px #555 solid; */
   padding-left: 10px;
   float: left;
-  /* border: green solid 2px; */
 }
 
 .posts .tags li:first-child {
@@ -286,115 +282,65 @@ ul li {
   color: #9490ff;
 }
 
-.form-section{
-  border: red solid 3px;
-  color:#dcdce8
-}
-
-.contactus-section{
+.contactus-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 375px;
   height: 824px;
-  background-color:#191765; 
-
-
   padding: 120px 24px;
   gap: 40px;
-  position: absolute;
-  
-  left: 0px;
-  /* top: 4516px; */
 }
 
-.contact-us {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 327px;
-  height: 164px;
-}
-
-.contact-us h1 {
+.callme {
   width: 327px;
   height: 35px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #9390FF;
+  justify-content: center;
+  color: #9390ff;
+  margin-left: 24px;
+  
 }
 
 .contact-us p {
   width: 327px;
   height: 105px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  color: #F5F5FF;
+  color: #f5f5ff;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin-top: 40px;
   gap: 24px;
   width: 327px;
   height: 292px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
-}
-
-label {
-  display: inline-block;
-  width: 90px;
-  text-align: right;   
-}
-
-input,
-textarea {
+input {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
-  /* position: absolute;
-  height: 48px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 48px/2); */
 }
 
-input:focus ,
-textarea:focus {
-  border-color: #000;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-}
-
-.button{  
+.button {
   padding-left: 90px;
 }
 
@@ -402,3 +348,21 @@ button {
   margin-left: .5em;
 }
 
+.textbox {
+  padding: 12px;
+  width: 303px;
+  height: 136px;
+}
+
+.input-form {
+  width: 327px;
+  height: 48px;
+  padding: 15px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-left: -24px;
+  border: pink 2px solid;
+}
