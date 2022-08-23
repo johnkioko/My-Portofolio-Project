@@ -115,7 +115,6 @@ hr {
   padding: 0;
 }
 
-
 .skills-section {
   width: 100%;
   height: auto;
@@ -275,7 +274,7 @@ ul li {
   color: #9490ff;
 }
 
-.contactus-section{
+.contactus-section {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -298,13 +297,13 @@ ul li {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
 }
 
 .contact-description {
   width: 327px;
   height: auto;
-  font-family: 'Inter';
+  font-family: 'Inter' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -314,7 +313,7 @@ ul li {
   justify-content: center;
   align-items: items;
   text-align: center;
-  color: #F5F5FF;
+  color: #f5f5ff;
 }
 
 .form {
@@ -322,11 +321,10 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
-  height: 292px;
-  
+  height: 292px;  
 }
 
 .name {
@@ -339,10 +337,10 @@ ul li {
   height: 48px;
 }
 
-.textarea{
+.textarea {
   width: 327px;
   height: 148px;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 textarea {
@@ -350,10 +348,10 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: #fff;
 }
 
-.button{
+.button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -361,7 +359,7 @@ textarea {
   gap: 10px;
   width: 89px;
   height: 48px;
-  background: #7D73FC;
+  background: #7d73fc;
   border: none;
   border-radius: 5px;
 }
@@ -381,7 +379,7 @@ textarea {
 }
 
 .footer {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -389,21 +387,20 @@ textarea {
 }
 
 .footer h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-top: -5px;
 }
 
-  .border {
-    width: 375px;
-    height: 1px;
-    background: #3A3837;
-    /* border: #e5e5e5 solid 1px; */
-    border-radius: 5px;
-    margin-top: 20px;
-  }
+.border {
+  width: 375px;
+  height: 1px;
+  background: #3a3837;
+  border-radius: 5px;
+  margin-top: 20px;
+}
