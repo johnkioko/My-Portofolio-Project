@@ -274,7 +274,7 @@ ul li {
 }
 
 .see-projects-btn:hover {
-  border:blue solid 2px;
+  border: blue solid 2px;
 }
 
 .contactus-section {
@@ -370,7 +370,7 @@ textarea {
 }
 
 .button:hover {
- border:blue solid 2px;
+   border: blue solid 2px;
 }
 
 .footer {
@@ -379,7 +379,7 @@ textarea {
   align-items: center;
   width: 100%;
   height: 180px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer h2 {
