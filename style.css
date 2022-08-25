@@ -1,5 +1,4 @@
 @media only screen and (max-width: 768px) {
-
   html {
     font-family: 'Roboto', sans-serif;
     list-style: none;
@@ -64,8 +63,9 @@
   .contact-us-h2-section h2 {
     display: none;
   }
+
   .arrow-right img,
-  .circle-1 {
+   .circle-1 {
     display: none;
   }
 
@@ -438,22 +438,21 @@
     margin: 0;
     background: #191765;
   }
-  
+
   .main-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
   }
 
   .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 0px;
+    padding: 114px 0;
     gap: 88px;
     margin-left: 142px;
     margin-top: 72px;
@@ -463,16 +462,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     margin: 0 auto;
     position: absolute;
     width: 1400px;
     height: 72px;
-    left: 0px;
+    left: 0;
     top: 0;
   }
 
-  .nav-left{
+  .nav-left {
     width: 85px;
     height: 18px;
     font-family: 'Roboto', sans-serif;
@@ -486,7 +484,7 @@
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .menu-list {
@@ -568,7 +566,7 @@
     flex-grow: 0;
   }
 
-  .header-section-heading-2 {  
+  .header-section-heading-2 {
     width: 1156px;
     height: 72px;
     font-family: 'Roboto', sans-serif;
@@ -637,7 +635,7 @@
     width: 448px;
     margin: 0 496px;
     position: absolute;
-    top:950px;
+    top: 950px;
   }
 
   .skills-section {
@@ -722,7 +720,7 @@
     font-size: 14.6667px;
   }
 
-  .icons-section-div{
+  .icons-section-div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -796,7 +794,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     width: 1156px;
     height: 155px;
@@ -830,7 +828,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 88px;
     width: 1156px;
     height: 2056px;
@@ -887,7 +885,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     width: 1156px;
     height: 448px;
@@ -899,7 +897,7 @@
   .white-bg-1 {
     width: 684px;
     height: 448px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(image_processing20200716-21735-f07s4k.png);
+    background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -932,7 +930,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #dfe1e6
+    color: #dfe1e6;
   }
 
   .tags-1 {
@@ -944,16 +942,16 @@
     width: 307px;
   }
 
-  .tags-1 li{
+  .tags-1 li {
     display: flex;
-     flex-direction: row;
-     align-items: center;
-     padding: 0;
-     gap: 8px;
-     width: 302px;
-     height: 40px;
-     color: #fff;
-  }
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 302px;
+    height: 40px;
+    color: #fff;
+}
 
   .projects-btn-1 {
     display: flex;
@@ -1010,7 +1008,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #DFE1E6;
+    color: #dfe1e6;
   }
 
   .tags-2 {
@@ -1024,14 +1022,14 @@
   }
 
   .tags-2 li {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     padding: 0;
-     gap: 8px;
-     width: 302px;
-     height: 40px;
-     color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 302px;
+    height: 40px;
+    color: #fff;
   }
 
   .projects-btn-2 {
@@ -1071,7 +1069,7 @@
   .callme {
     display: none;
   }
-  
+
   .contact-us-h2-section {
     display: flex;
     flex-direction: column;
@@ -1116,11 +1114,10 @@
   }
 
   .textarea {
-    Width: 400px;
-    Height:100px;
+    width: 400px;
+    height: 100px;
   }
-  .name,
-  .mail {
+  .name, .mail {
     height: 48px;
     width: 400px;
   }
@@ -1169,7 +1166,6 @@
     width: 200px;
     height: 40px;
     margin-left: 500px;
- 
   }
 
   .footer-heading {
@@ -1187,21 +1183,19 @@
     flex: none;
     order: 5;
     flex-grow: 0;
-
   }
 
   .border {
     position: absolute;
     height: 1px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
     background: #3a3837;
   }
 
   .btn:hover {
     border: blue solid 2px;
   }
-
 
 }
