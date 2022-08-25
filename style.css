@@ -462,8 +462,9 @@
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    margin: 0 auto;
     position: absolute;
     width: 1400px;
     height: 72px;
@@ -483,7 +484,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 2em;
     text-decoration: none;
     list-style-type: none;
     color: #FFFFFF;
