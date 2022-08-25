@@ -65,7 +65,7 @@
   }
 
   .arrow-right img,
-   .circle-1 {
+  .circle-1 {
     display: none;
   }
 
@@ -445,7 +445,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .wrapper {
@@ -951,7 +951,7 @@
     width: 302px;
     height: 40px;
     color: #fff;
-}
+  }
 
   .projects-btn-1 {
     display: flex;
@@ -1117,7 +1117,9 @@
     width: 400px;
     height: 100px;
   }
-  .name, .mail {
+
+  .name,
+  .mail {
     height: 48px;
     width: 400px;
   }
@@ -1197,5 +1199,4 @@
   .btn:hover {
     border: blue solid 2px;
   }
-
 }
