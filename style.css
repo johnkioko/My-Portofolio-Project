@@ -309,10 +309,12 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 24px;
+    transition: font-size 2s;
   }
 
   .see-projects-btn:hover {
     border: blue solid 2px;
+    font-size: 16px;
   }
 
   .contactus-section {
@@ -405,10 +407,12 @@
     background: #7d73fc;
     border: none;
     border-radius: 5px;
+    transition: font-size 2s;
   }
 
   .button:hover {
     border: blue solid 2px;
+    font-size: 16px;
   }
 
   .footer {
@@ -955,6 +959,7 @@
     background: #9390ff;
     color: #fff;
     border: none;
+    transition: font-size 2s;
   }
 
   .post-container-2 {
@@ -1027,6 +1032,7 @@
     border: none;
     background: #9390ff;
     color: #fff;
+    transition: font-size 2s;
   }
 
   .white-bg-2 {
@@ -1111,6 +1117,7 @@
     gap: 10px;
     background: #9390ff;
     color: #fff;
+    transition: font-size 2s;
   }
 
   .footer {
@@ -1164,5 +1171,6 @@
 
   .btn:hover {
     border: blue solid 2px;
+    font-size: 16px;
   }
 }
