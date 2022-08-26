@@ -430,9 +430,8 @@
   }
 
   .border {
-    width: 375px;
-    height: 1px;
-    background: #3a3837 solid 1px;
+    width: 374px;
+    border: #3a3837 solid 1px;
     border-radius: 5px;
     margin-top: 20px;
   }
