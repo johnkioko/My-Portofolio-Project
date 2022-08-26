@@ -25,7 +25,6 @@
     background-color: rgb(12, 12, 88);
     color: #fff;
     padding-top: 20px;
-    border: red solid 3px;
   }
 
   hr {
@@ -448,7 +447,7 @@
     background: #191765;
   }
 
-  .main-wrapper{
+  .main-wrapper {
     margin: 0 auto;
   }
 
@@ -536,7 +535,6 @@
     margin: 0 auto;
   }
 
-
   .heading-section-header {
     display: flex;
     flex-direction: column;
@@ -585,13 +583,13 @@
 
   .circle-2 {
     background-image: url('images/circle-2.svg');
+    background-color: #edecff;
     background-repeat: no-repeat;
     width: 10%;
     height: 25%;
     position: absolute;
     margin-top: 300px;
     right: 80px;
-    background: #edecff;
     filter: blur(30px);
   }
 
@@ -607,7 +605,7 @@
     line-height: 32px;
     text-align: center;
     color: #b3bac5;
- }
+  }
 
   .header-section-paragraph,
   .arrow-bottom {
@@ -634,7 +632,6 @@
     align-items: center;
     padding: 0 25%;
     margin: 0 auto;
- 
   }
 
   .language-list-1 {
@@ -705,7 +702,7 @@
 
   .icons-section-div {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0 auto;
@@ -810,23 +807,23 @@
 
   .ellipse-20 {
     background-image: url('images/ellipse-22.svg');
+    background-color: #edecff;
     background-repeat: no-repeat;
     width: 5%;
     height: 60%;
     position: absolute;
     margin-top: -70px;
     right: 130px;
-    background: #edecff;
     filter: blur(20px);
     transform: matrix(-1, -0.54, -0.54, 0.84, 0, 0);
   }
 
   .ellipse-21 {
     background-image: url('images/ellipse-21.svgg');
+    background-color: #edecff;
     background-repeat: no-repeat;
     width: 20%;
     height: 20%;
-    background: #edecff;
     filter: blur(20px);
     position: absolute;
     margin-top: -50px;
@@ -835,6 +832,7 @@
 
   .ellipse-22 {
     background-image: url('images/ellipse-22.svg');
+    background-color: #edecff;
     background-repeat: no-repeat;
     width: 20%;
     height: 20%;
@@ -842,7 +840,6 @@
     margin-top: -300px;
     right: 100px;
     overflow: hidden;
-    background: #edecff;
     filter: blur(30px);
     transform: matrix(0.26, 1, 0.97, 0.26, 0, 0);
   }
@@ -891,9 +888,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
     color: #fff;
   }
 
@@ -958,16 +952,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 4% auto;
     width: 448px;
-    height: 105px; 
+    height: 105px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #fff;
-    margin: 4%;
   }
 
   .posts-2 p {
