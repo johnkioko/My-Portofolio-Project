@@ -106,6 +106,13 @@
     text-align: center;
     letter-spacing: 0.37px;
     color: #7d73fc;
+    animation-name: heading-1;
+    animation-duration: 5s;
+  }
+
+  @keyframes heading-1 {
+    from { color: #191765; }
+    to { color: #7d73fc; }
   }
 
   .header-section-heading-2 {
@@ -119,6 +126,13 @@
     align-items: center;
     text-align: center;
     color: #edecff;
+    animation-name: heading-2;
+    animation-duration: 5s;
+  }
+
+  @keyframes heading-2 {
+    from { color: #191765; }
+    to { color: #edecff; }
   }
 
   .header-section-paragraph {
@@ -555,6 +569,13 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    animation-name: heading-3;
+    animation-duration: 5s;
+  }
+
+  @keyframes heading-3 {
+    from { color: #191765; }
+    to { color: #9391ff; }
   }
 
   .header-section-heading-2 {
@@ -570,6 +591,13 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    animation-name: heading-5;
+    animation-duration: 5s;
+  }
+
+  @keyframes heading-5 {
+    from { color: #191765; }
+    to { color: #dfe1e6; }
   }
 
   .circle-1 {
