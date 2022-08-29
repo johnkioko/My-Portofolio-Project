@@ -10,11 +10,12 @@
 - Html
 - Css
 - Git and Github
+- Deployed on gitHub Pages
 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://johnkioko.github.io/My-Portofolio-Project/)
 
 
 ## Getting Started
