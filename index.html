@@ -322,10 +322,12 @@
     </div>
 
    <form class="form" action="https://formspree.io/f/xlevdeyp" method="post">
-
-      <input maxlength="30" type="text" class="name" name="user_name" placeholder="Enter name" required>
-      <input type="email" class="mail" name="user_email" placeholder="Email Address" required>
-      <textarea maxlength="500" class="textarea" name="user_message" placeholder="Enter text here" required></textarea>
+      <label for="name" hidden>Name</label>
+      <input maxlength="30" type="text" class="name" id="name" name="user_name" placeholder="Enter name" required>
+      <label for="mail" hidden>Email</label>
+      <input type="email" class="mail" name="user_email" id="mail" placeholder="Email Address" required>
+      <label for="textarea" hidden></label>
+      <textarea maxlength="500" class="textarea" name="user_message" id="textarea placeholder="Enter text here" required></textarea>
       <button class="button btn" type="submit">Get Intouch</button>
     </form>
 
