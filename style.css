@@ -54,12 +54,62 @@
     color: #fff;
   }
 
-  .hamberg {
+  /* .hamberg {
     width: 66px;
     height: 66px;
+  } */
+
+  /* Hamburger Menu */
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 30px 5px 0;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .hamberg.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamberg.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamberg.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .menu-list-link {
+    color: #fff;
+  }
+  
+  .menu-list {
+    position: fixed;
+    /* left: -100%; */
+    display: none;
+    top: 20px;
+    gap: 0;
+    flex-direction: column;
+    color: #fff;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  
+  .menu-list-items {
+    margin: 10px 30px 0 20px;
+    color: #fff;
+  }
+  
+  .menu-list.active {
+    display: block;
+    font-size: 18px;
   }
 
-  .menu-list,
   .contact-us-h2-section h2,
   .circle-1,
   .circle-2,
@@ -68,7 +118,8 @@
   .ellipse-21,
   .ellipse-22,
   .arrow-left,
-  .arrow-right {
+  .arrow-right,
+  .mail-icon {
     display: none;
   }
 
