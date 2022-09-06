@@ -7,38 +7,43 @@
 
   * {
     text-decoration: none;
+    box-sizing: border-box; 
   }
 
   body {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .main-wrapper {
+    position: relative;
+    top: 5px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 375px;
     height: auto;
-    align-items: center;
     background-color: rgb(12, 12, 88);
     color: #fff;
-    padding-top: 20px;
   }
 
   hr {
     border: 0.5px solid #646369;
+  }
+  header {
+    width: 100%;
+    margin: 20px 0;
   }
 
   .navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 375px;
+    width: 100%;
     justify-content: space-between;
-    margin-bottom: 20px;
-    padding-bottom: 50px;
   }
 
   .nav-left {
@@ -52,20 +57,10 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 20px;
     color: #fff;
   }
 
   /* Hamburger Menu */
-
-  header {
-    margin: 30px 0;
-  }
-
-  .mobile-menu {
-    margin: 50px 0;
-    padding: 50px 0;
-  }
 
   .bar {
     display: block;
@@ -92,28 +87,36 @@
     color: #fff;
   }
   
-  .mobile-menu {
-    position: absolute;
-    display: none;
-    top: 20px;
-    width: 100%;
-    gap: 12px;
+  .menu-list {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    display: none; 
+    width: 100%; 
+    height: auto;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12,12,88); 
+    z-index: 1;
+    cursor: pointer;
+    overflow-y: hidden;
     transition: 0.3s;
   }
-  
+
   .menu-list-items {
-    margin: 10px 30px 0 20px;
+    margin: 10px 0;
     color: #fff;
+    padding: 10px 0;
   }
   
-  .mobile-menu.active {
+  .menu-list.active {
     display: block;
     font-size: 18px;
-    left: -10px;
   }
 
   .contact-us-h2-section h2,
@@ -140,7 +143,7 @@
     width: 100px;
     left: 0;
     top: 100px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .ellipse-2 {
@@ -150,7 +153,7 @@
     height: 20%;
     width: 20%;
     right: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .header-section-heading {
