@@ -113,7 +113,7 @@
     background-position: left -2em, right 12em;
     background-size: 13em, 11em;
   }
-  
+
   .menu-list-items {
     display: flex;
     flex-direction: row;
@@ -126,7 +126,6 @@
   .mobile-span {
     color: #acb7c3;
     margin-right: 12%;
-
   }
 
   .menu-list.active {
@@ -543,7 +542,6 @@
 /* Portfolio Desktop version */
 
 @media only screen and (min-width: 768px) {
-
   html body {
     padding: 0;
     margin: 0;
@@ -592,7 +590,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: o auto;
+    margin: 0 auto;
     padding: 0;
     list-style-type: none;
   }
