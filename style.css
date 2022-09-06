@@ -37,6 +37,8 @@
     align-items: center;
     width: 375px;
     justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .nav-left {
@@ -54,12 +56,12 @@
     color: #fff;
   }
 
-  /* .hamberg {
-    width: 66px;
-    height: 66px;
-  } */
-
   /* Hamburger Menu */
+
+  header {
+    margin: 30px 0;
+  }
+
   .bar {
     display: block;
     width: 25px;
@@ -87,17 +89,16 @@
   
   .menu-list {
     position: fixed;
-    /* left: -100%; */
     display: none;
     top: 20px;
-    gap: 0;
+    width: 100%;
+    height: 100vh;
+    gap: 12px;
     flex-direction: column;
+    align-items: flex-start;
     color: #fff;
-    width: 75%;
-    height: auto;
     text-align: center;
     transition: 0.3s;
-    overflow: hidden;
   }
   
   .menu-list-items {
@@ -108,6 +109,10 @@
   .menu-list.active {
     display: block;
     font-size: 18px;
+    padding: 50px 0;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    left: 0;
   }
 
   .contact-us-h2-section h2,
