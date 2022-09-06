@@ -144,7 +144,7 @@
     width: 100px;
     left: 0;
     top: 100px;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
 
   .ellipse-2 {
@@ -592,7 +592,7 @@
     justify-content: flex-end;
     align-items: center;
     width: fit-content;
-    height: fit-content;
+    height: auto;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
