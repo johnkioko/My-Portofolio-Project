@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   html {
     font-family: 'Roboto', sans-serif;
     list-style: none;
@@ -457,7 +457,7 @@
 
 /* Portfolio Desktop version */
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   html body {
     padding: 0;
     margin: 0;
