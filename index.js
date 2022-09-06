@@ -4,7 +4,7 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
 });
-document.querySelectorAll('.menu-list-link').forEach(linkItem => (linkItem.addEventListener('click', () => {
+document.querySelectorAll('.menu-list-link').forEach((linkItem) => (linkItem.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 })));
