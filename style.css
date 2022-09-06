@@ -48,8 +48,9 @@
   }
 
   .nav-left {
-    width: 81px;
+    width: 95px;
     height: 16px;
+    margin-left: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -97,7 +98,7 @@
     position: absolute;
     display: none;
     width: 100%;
-    height: auto;
+    height: 150vh;
     top: 70px;
     left: 0;
     right: 0;
@@ -107,12 +108,25 @@
     cursor: pointer;
     overflow-y: hidden;
     transition: 0.3s;
+    background-image: url('/images/shape2.png'), url('/images/shape1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -2em, right 12em;
+    background-size: 13em, 11em;
   }
-
+  
   .menu-list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 10px 0;
     color: #fff;
     padding: 10px 0;
+  }
+
+  .mobile-span {
+    color: #acb7c3;
+    margin-right: 12%;
+
   }
 
   .menu-list.active {
@@ -529,6 +543,7 @@
 /* Portfolio Desktop version */
 
 @media only screen and (min-width: 768px) {
+
   html body {
     padding: 0;
     margin: 0;
@@ -559,7 +574,7 @@
   }
 
   .nav-left {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -577,7 +592,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0 auto;
+    margin: o auto;
     padding: 0;
     list-style-type: none;
   }
@@ -589,9 +604,9 @@
 
   .menu-list-items {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 100%;
     height: auto;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -612,7 +627,8 @@
 
   .hamberg,
   .eclipse-1,
-  .white-bg {
+  .white-bg,
+  .mobile-span {
     display: none;
   }
 
