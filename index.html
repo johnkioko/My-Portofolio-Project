@@ -9,9 +9,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="popup.css">
+ 
   <title>John Mutisya's Portofolio</title>
 </head>
 <body>
+
+  <section id="detail1">
+    <button type="button" id="modal-close">X</button>
+    <div id="detail"></div>
+   
+    </section>
+  </section> 
+  <div class="blurBg">
+
 <section class="main-wrapper">
   <header>
     <nav class="navbar">
@@ -64,32 +75,44 @@
   </section>
     <!-- Middle Section -->
 
-  <div class="skills-section">
-    <section class="ellipse-2"></section>
-    <ul class="language-list-1">
-      <li class="col-header"><h3> Language </h3></li>
-      <li class="list-items list-items-1">Javascript</li>
-      <li class="list-items list-items-1">Ruby</li>
-      <li class="list-items list-items-1">Html</li>
-      <li class="list-items list-items-1">CSS</li>
-    </ul>
-    <ul class="language-list-2">
-      <li class="col-header"><h3>Frameworks</h3></li>
-      <li class="list-items list-items-2">Bootstrap</li>
-      <li class="list-items list-items-2">Ruby on Rails</li>
-      <li class="list-items list-items-2">RSPec</li>
-      <li class="list-items list-items-2">CapyBara</li>
-      <li class="list-items list-items-2">Selenium</li>
-    </ul>
-    <ul class="language-list-3">
-      <li class="col-header"><h3>Skills </h3></li>
-      <li class="list-items list-items-3">Codekit</li>
-      <li class="list-items list-items-3">Guthub</li>
-      <li class="list-items list-items-3">Codepen</li>
-      <li class="list-items list-items-3">Gitlab</li>
-      <li class="list-items list-items-3">Terminal</li>
-    </ul> 
-  </div>
+    <section id="frame_container">
+      <article class="frame">
+        <section class="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </section>
+
+        <div class="back"></div>
+        
+        <section class="frameworks">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>GitLab</li>
+          <li>Terminal</li>
+        </ul>
+      </article>
+    </section>
+
   <div class="devider-2"></div>
   <section class="icons-section-div">
     <div class="arrow-left">
@@ -116,117 +139,42 @@
     <!-- Arrow Mobile version -->
 
     <div class="arrow-bottom">
-      <img class="arrow-bottom" src="images/elementright.svg" alt="work icon">
+      <img src="images/elementright.svg" alt="work icon">
     </div>
     <div class="arrow-right">
       <img class="arrow-right" src="images/elementright.svg" alt="work icon">
     </div>
   </section>
-  <div class="my-work" id="Portofolio">
-    <p>My Recent Work</p>
-  </div >
-  <div class="my-work-divider divider1"></div>
-  <section class="worklist">
-  <div class="container-posts">
-  <div class="post-container post-container-1">
-    <div class="white-bg white-bg-1"> </div>
-    <img class="ellipse-19" src="./images/ellipse-19.svg" alt="background Ellipse 1 desktop" />
-    <div class="posts posts-1">
-      <h2>Multi-Post Stories</h2>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.
-      </p>
-      <ul class="tags tags-1">
-        <li>css <span class="span"></span></li>
-        <li>html <span class="span"></span></li>
-        <li>bootstrap <span class="span"></span> </li>
-        <li>Ruby </li>
-      </ul>
-      <button class="see-projects-btn projects-btn-1 btn">See Project</button>
-    </div>    
-  </div>
-  <div class="post-container post-container-2">
-    <div class="white-bg"> </div>
-    <div class="posts posts-2">
-      <h2>Multi-Post Stories</h2>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.
-      </p>
-      <ul class="tags tags-2">
-        <li>css <span class="span"></span></li>
-        <li>html <span class="span"></span></li>
-        <li>bootstrap <span class="span"></span> </li>
-        <li>Ruby </li>
-      </ul>
-      <button class="see-projects-btn projects-btn-2 btn">See Project</button>
-    </div>
-    <img class="ellipse-20" src="./images/ellipse-20.svg" alt="background Ellipse 2 desktop" />
-    <div class="white-bg-2"></div>           
-  </div>
-  <div class="post-container post-container-1">
-    <div class="ellipse-21"></div>
-    <!-- <img class="ellipse-21" src="./images/ellipse-21.svg" alt="background Ellipse 3 desktop" /> -->
-    <div class="white-bg white-bg-1"> </div>
-    <div class="posts posts-1">
-      <h2>Multi-Post Stories</h2>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.
-      </p>     
-      <ul class="tags tags-1">
-        <li>css <span class="span"></span></li>
-        <li>html <span class="span"></span></li>
-        <li>bootstrap <span class="span"></span> </li>
-        <li>Ruby </li>
-      </ul>         
-      <button class="see-projects-btn projects-btn-1 btn">See Project</button>
-    </div>             
-  </div>                  
-  <div class="post-container post-container-2">
-    <div class="white-bg"> </div>
-    <div class="posts posts-2">
-      <h2>Multi-Post Stories</h2>
-      <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.
-      </p>
-      <ul class="tags tags-2">
-        <li>css <span class="span"></span></li>
-        <li>html <span class="span"></span></li>
-        <li>bootstrap <span class="span"></span> </li>
-        <li>Ruby </li>
-      </ul>
-      <button class="see-projects-btn projects-btn-2 btn">See Project</button>
-    </div>
-    <div class="ellipse-22"></div>
-    <!-- Desktop Version Background Image 2 -->
-    <div class="white-bg-2"> </div>
-  </div>
-  </div>
-  </section>
-    <section class="contactus-section" id="Contact">
-    <h2 class="callme">CONTACT US</h2>
+<section class="projects" id="project-s">
+  <article class="recent_work">
+    <h2 class="recent-mobile">MY RECENT WORK</h2>
+    <h2 class="recent-desk">My recent work</h2>
+  </article>
+  <section id="project-list">    
+  </section> 
+     <section id="contact-me">
+      <article class="contact-info">
+        <h2 class="mobile_contact">CONTACT US</h2>
+        <h2 class="chat">Let's chat!</h2>
+        <p class="contact_description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+        </p>
+      </article>
 
-     <!-- desktop version contact-us heading -->
+      <form action="https://formspree.io/f/xlevdeyp" method="post">
+        <fieldset>
+        <input type="text" id="name" name="Name" placeholder="Text Input" required
+        maxlength="30"
+        />
+        <input type="email" id="email" name="Email" placeholder="Please Enter Email" required
+        />
+        <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+        <button class="mobile-button" type="submit">Get in touch</button>
+        <button class="desk_button" type="submit">Send</button>
+      </fieldset>
+      </form>
+    </section>  
 
-    <div class="contact-us-h2-section">
-    <h2>Let's Chat!</h2>
-    <P class="contact-description">If you have an application you are <br>
-      interested in developing,
-      a feature that you <br>
-      need built or a project that needs coding.
-      <br> I'd love to help with it </P>
-    </div>
-
-   <form class="form" action="https://formspree.io/f/xlevdeyp" method="post">
-      <label for="name" hidden>Name</label>
-      <input maxlength="30" type="text" class="name" id="name" name="user_name" placeholder="Enter name" required>
-      <label for="mail" hidden>Email</label>
-      <input type="email" class="mail" name="user_email" id="mail" placeholder="Email Address" required>
-      <label for="textarea" hidden>Textarea</label>
-      <textarea maxlength="500" class="textarea" name="user_message" id="textarea" placeholder="Enter text here" required></textarea>
-      <button class="button btn" type="submit">Get Intouch</button>
-    </form>
-
-    <div class="footer-border"></div>
+  <div class="footer-border"></div>
   </section>
   <footer class="footer">
     <div class="border"></div>
@@ -254,7 +202,9 @@
     </div>
   </footer>
 </section>
+</div>
 
+<script src="popup.js"></script>
 <script src="index.js"></script>
 
 </body>
