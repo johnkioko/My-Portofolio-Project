@@ -27,11 +27,13 @@ body {
   top: 0;
   bottom: 0;
   position: fixed;
-  height: 98vh;
+  height: 95vh;
   overflow-y: scroll;
   background-color: rgba(255, 255, 255, 0.16);
-  width: 90%;
+  width: 100%;
+  max-width: 90%;
   margin: 10px auto;
+  margin-top: 20px;
 }
 
 a h2 {
@@ -78,6 +80,7 @@ p {
   margin-left: 13px;
   margin-bottom: 60px;
   margin-bottom: 0;
+  font-size: medium;
 }
 
 #detail figure {
@@ -206,6 +209,12 @@ ul {
   color: #edecff;
   font-size: 17px;
   padding: 7px;
+}
+
+.demo-button span a,
+.source-button span a{
+  text-decoration: none;
+  color: #fff;
 }
 
 header {
@@ -526,9 +535,8 @@ fieldset {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 80%;
   border-top: 1px solid #3a3837;
-  padding-top: 4vh;
   justify-content: center;
 }
 
@@ -570,7 +578,7 @@ fieldset {
 
   #detail {
     position: fixed;
-    height: 92vh;
+    height: 100vh;
     overflow-y: scroll;
     z-index: 1;
     left: 0;
@@ -581,7 +589,7 @@ fieldset {
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     bottom: 0;
     width: 90%;
-    margin: 17px auto;
+    margin: 5px auto;
   }
 
   #detail h2 {
@@ -599,18 +607,19 @@ fieldset {
 
   #detail figure {
     text-align: center;
+    width: 100%;
   }
 
   #detail figure img {
-    margin: 35px 0 15px 0;
+    margin: 40px 7% 20px 0;
     width: 90%;
-    height: 400px;
+    height: 60vh;
   }
 
   #modal-close {
     position: fixed;
     right: 10%;
-    top: 4%;
+    top: 3%;
     border: none;
     color: #fff;
     font-size: 17px;
@@ -723,6 +732,12 @@ fieldset {
     color: #edecff;
     font-size: 18px;
     padding: 10px;
+  }
+
+  .demo-button span a,
+  .source-button span a{
+    text-decoration: none;
+    color: #fff;
   }
 
   #headline {

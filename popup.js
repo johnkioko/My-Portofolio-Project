@@ -10,7 +10,7 @@ const projectArray = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
     sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
@@ -19,7 +19,7 @@ const projectArray = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
     sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
@@ -28,7 +28,7 @@ const projectArray = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
     sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
@@ -37,7 +37,7 @@ const projectArray = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
     sourceCode: 'https://github.com/johnkiokom/porfolio_projects/tree/main',
   },
 ];
@@ -90,7 +90,7 @@ modalBtn.addEventListener('click', () => {
 });
 
 const modalContent = (project) => {
-  blurGround.style.opacity = '0.15';
+  blurGround.style.opacity = '0.01';
 
   const modal = `
   <section class="title">
@@ -108,11 +108,11 @@ const modalContent = (project) => {
 
   <section id="button-group">
     <button type="button" class="demo-button">
-      <span>See Live</span> 
+      <span><a href="https://johnkioko.github.io/My-Portofolio-Project/" Target="_blank">See Live</a></span> 
       <span><img id="live-icon" src="/images/Icon.png" alt="live icon"></span>
     </button>
     <button type="button" class="source-button">
-      <span>See Source</span> 
+      <span><a href="https://github.com/johnkioko/My-Portofolio-Project" Target="_blank">See Source</a></span> 
       <span><img class="github-icon" src="/images/Vector.png" alt="source icon"></span>
     </button> 
   </section>
