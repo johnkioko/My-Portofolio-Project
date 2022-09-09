@@ -10,7 +10,3 @@ document.querySelectorAll('.menu-list-link').forEach((linkItem) => (linkItem.add
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 })));
-
-  
-
-

@@ -1,10 +1,6 @@
-const toggleBtn = document.querySelector('#toggleBtn');
-const ulElem = document.querySelector('#menuList');
 const projectContainer = document.querySelector('#project-list');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
-const lists = document.querySelectorAll('#menuList li a');
-const closeBtn = document.querySelector('#btn_close');
 const blurGround = document.querySelector('.blurBg');
 
 const projectArray = [
@@ -126,7 +122,7 @@ const modalContent = (project) => {
   modalMainContainer.style.display = 'block';
 };
 
-projectBtns.forEach((projectBtn, index) => {
+projectBtns.forEach((projectBtn) => {
   projectBtn.addEventListener('click', (e) => {
     const getBtnId = e.target.getAttribute('id');
     const projectObj = projectArray[getBtnId];
