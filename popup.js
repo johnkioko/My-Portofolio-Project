@@ -2,16 +2,16 @@ const toggleBtn = document.querySelector('#toggleBtn');
 const ulElem = document.querySelector('#menuList');
 const projectContainer = document.querySelector('#project-list');
 const modalContainer = document.querySelector('#detail');
-const modalMainContainer = document.querySelector('#detail1')
+const modalMainContainer = document.querySelector('#detail1');
 const lists = document.querySelectorAll('#menuList li a');
 const closeBtn = document.querySelector('#btn_close');
 const blurGround = document.querySelector('.blurBg');
 
-
 const projectArray = [
   {
     name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
@@ -19,7 +19,8 @@ const projectArray = [
   },
   {
     name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
@@ -27,7 +28,8 @@ const projectArray = [
   },
   {
     name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
@@ -35,12 +37,13 @@ const projectArray = [
   },
   {
     name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
-  }
+  },
 ];
 
 projectArray.forEach((project, index) => {
@@ -75,20 +78,20 @@ projectArray.forEach((project, index) => {
 
       <button class="button" id=${index}>See Projects</button>
     </section>
-  </section>`
+  </section>`;
 
   projectContainer.innerHTML += projectItem;
 });
 
-const projectBtns = document.querySelectorAll('.button')
+const projectBtns = document.querySelectorAll('.button');
 
 const modalBtn = document.querySelector('#modal-close');
 
 modalBtn.addEventListener('click', () => {
   modalMainContainer.style.display = 'none';
-  blurGround.style.filter = 'blur(0)'
+  blurGround.style.filter = 'blur(0)';
   blurGround.style.opacity = '1';
-})
+});
 
 const modalContent = (project) => {
   // blurGround.style.filter = 'blur(2px)';
@@ -111,22 +114,22 @@ const modalContent = (project) => {
   <section id="button-group">
     <button type="button" class="demo-button">
       <span>See Live</span> 
-      <span><img id="live-icon" src="/images/live.png" alt="live icon"></span>
+      <span><img id="live-icon" src="/images/Icon.png" alt="live icon"></span>
     </button>
     <button type="button" class="source-button">
       <span>See Source</span> 
-      <span><img class="github-icon" src="/images/one.png" alt="live icon"></span>
+      <span><img class="github-icon" src="/images/Vector.png" alt="source icon"></span>
     </button> 
   </section>
 `;
   modalContainer.innerHTML = modal;
   modalMainContainer.style.display = 'block';
-}
+};
 
 projectBtns.forEach((projectBtn, index) => {
-  projectBtn.addEventListener('click', (e)=>{
-    const getBtnId = e.target.getAttribute('id')
-    const projectObj = projectArray[getBtnId]
+  projectBtn.addEventListener('click', (e) => {
+    const getBtnId = e.target.getAttribute('id');
+    const projectObj = projectArray[getBtnId];
     modalContent(projectObj);
-  })
-})
+  });
+});
