@@ -2,8 +2,6 @@ const projectContainer = document.querySelector('#project-list');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
 const blurGround = document.querySelector('.blurBg');
-const form = document.getElementById('form');
-const errorAlert = document.getElementById('error_msg');
 
 const projectArray = [
   {
