@@ -32,7 +32,6 @@ body {
   background-color: rgba(255, 255, 255, 0.16);
   width: 90%;
   margin: 10px auto;
-  overflow-y: scroll;
 }
 
 a h2 {
@@ -111,7 +110,7 @@ p {
 }
 
 .frameworks li {
-  color: f5f5ff;
+  color: #f5f5ff;
   padding: 30px;
   padding-top: 0;
 }
@@ -647,7 +646,7 @@ fieldset {
   }
 
   .frameworks li {
-    color: f5f5ff;
+    color: #f5f5ff;
     padding-top: 0;
     font-size: 18px;
   }
@@ -972,7 +971,7 @@ fieldset {
     border: none;
     transition-property: background-color, box-shadow;
     transition-duration: 1s;
-    transition-timing-function: ease out;
+    transition-timing-function: ease-in-out;
   }
 
   .desk_button:hover {
