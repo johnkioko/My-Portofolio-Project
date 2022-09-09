@@ -159,14 +159,15 @@
         </p>
       </article>
 
-      <form action="https://formspree.io/f/xlevdeyp" method="post">
+      <form id="form" action="https://formspree.io/f/xlevdeyp" method="post">
         <fieldset>
         <input type="text" id="name" name="Name" placeholder="Text Input" required
         maxlength="30"
         />
-        <input type="email" id="email" name="Email" placeholder="Please Enter Email" required
+        <input type="email" id="email" name="email" placeholder="Please Enter Email" required
         />
         <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+        <span id="error_msg"></span>
         <button class="mobile-button" type="submit">Get in touch</button>
         <button class="desk_button" type="submit">Send</button>
       </fieldset>

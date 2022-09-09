@@ -2,6 +2,8 @@ const projectContainer = document.querySelector('#project-list');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
 const blurGround = document.querySelector('.blurBg');
+const form = document.getElementById("form");
+const errorAlert = document.getElementById('error_msg');
 
 const projectArray = [
   {
@@ -11,7 +13,7 @@ const projectArray = [
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
-    sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
+    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
@@ -20,7 +22,7 @@ const projectArray = [
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
-    sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
+    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
@@ -29,7 +31,7 @@ const projectArray = [
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
-    sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
+    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
@@ -38,7 +40,7 @@ const projectArray = [
     img: '/images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
     linkDemo: '',
-    sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
+    sourceCode: 'https://github.com/johnkiokom/porfolio_projects/tree/main',
   },
 ];
 
@@ -90,7 +92,6 @@ modalBtn.addEventListener('click', () => {
 });
 
 const modalContent = (project) => {
-  // blurGround.style.filter = 'blur(2px)';
   blurGround.style.opacity = '0.15';
 
   const modal = `
@@ -98,7 +99,7 @@ const modalContent = (project) => {
     <h2>${project.name}</h2>
   </section>
 
-  <figure class="modal-body"><img src="images/Snapshoot Portfolio.png" alt="Project Image"></figure>
+  <figure><img src='./images/portfolio.png' alt="Project Image"></figure>
   <p>${project.description}.</p>
 
   <ul class="tags">
@@ -129,3 +130,19 @@ projectBtns.forEach((projectBtn) => {
     modalContent(projectObj);
   });
 });
+
+
+
+// Form Validation;
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = form.elements['email'].value;
+  if (email === email.toLowerCase()) {
+    form.submit();
+  } else {
+    errorAlert.innerText = 'Email should be in lowercase';
+  }
+});
+
+
