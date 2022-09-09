@@ -211,8 +211,13 @@ ul {
   padding: 7px;
 }
 
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .demo-button span a,
-.source-button span a{
+.source-button span a {
   text-decoration: none;
   color: #fff;
 }
@@ -224,11 +229,6 @@ header {
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-header a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .menu_items {
@@ -735,7 +735,7 @@ fieldset {
   }
 
   .demo-button span a,
-  .source-button span a{
+  .source-button span a {
     text-decoration: none;
     color: #fff;
   }
