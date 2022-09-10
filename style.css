@@ -116,7 +116,6 @@
 
   .menu-list-items {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin: 10px 0;
     color: #fff;
@@ -289,10 +288,9 @@
   }
 
   .arrow-bottom img {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    gap: 20px;
     height: 40px;
   }
 
@@ -537,24 +535,103 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+
+  /* Modal Section */
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    width: 50%;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .modal-body {
+    padding: 10px 15px;
+  }
+
+  .modal-body p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin: 10%;
+  }
+
+  .modal-body img {
+    width: 100%;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e5e5e5;
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
 }
 
 /* Portfolio Desktop version */
-
 @media only screen and (min-width: 768px) {
   html body {
-    padding: 0;
     margin: 0;
+    padding: 0;
     background: #191765;
   }
 
   .main-wrapper {
+    max-width: 90%;
     margin: 0 auto;
-  }
-
-  .callme,
-  .ellipse-2 {
-    display: none;
   }
 
   .contactus-section,
@@ -567,8 +644,8 @@
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
   }
 
   .nav-left {
@@ -578,20 +655,20 @@
     font-size: 18px;
     line-height: 22px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
     color: #fff;
+    padding: 0 2em;
   }
 
   .menu-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
-    padding: 0;
+    padding: 0 2em;
     list-style-type: none;
   }
 
@@ -609,7 +686,7 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
     color: #fff;
@@ -623,10 +700,13 @@
     background-color: #fff;
   }
 
+  .callme,
   .hamberg,
+  .bar,
   .eclipse-1,
   .white-bg,
-  .mobile-span {
+  .mobile-span,
+  .ellipse-2 {
     display: none;
   }
 
@@ -641,12 +721,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3em;
     padding: 0;
-    gap: 24px;
   }
 
   .header-section-heading {
-    width: 1156px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -655,9 +734,6 @@
     color: #9391ff;
     margin-bottom: -50px;
     margin-top: 0;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     animation-name: heading-3;
     animation-duration: 5s;
   }
@@ -673,8 +749,8 @@
   }
 
   .header-section-heading-2 {
-    width: 1156px;
-    height: 72px;
+    width: auto;
+    margin-top: 3em;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -682,9 +758,6 @@
     line-height: 47px;
     text-align: center;
     color: #dfe1e6;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     animation-name: heading-5;
     animation-duration: 5s;
   }
@@ -872,42 +945,32 @@
 
   .worklist {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 88px;
   }
 
   .my-work {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     text-align: left;
     padding: 0;
-    margin: 0 auto;
-    margin-top: 10%;
-    gap: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    margin-left: 0;
+    width: 100%;
   }
 
   .my-work p {
-    width: 444px;
-    height: 114px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 114px;
+    font-size: 40px;
     margin-left: 2%;
     color: #9390ff;
   }
 
   .my-work-divider {
-    width: 97%;
-    margin: 0 auto;
+    width: 98%;
+    margin: 2em auto;
+    margin-bottom: 6em;
+    margin-left: 2%;
     border: 1px solid #646369;
   }
 
@@ -1142,7 +1205,7 @@
     overflow: hidden;
   }
 
-  .contactus-section {
+  #Contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1267,5 +1330,51 @@
   .btn:hover {
     border: blue solid 2px;
     font-size: 16px;
+  }
+
+  .ellipse_19 {
+    display: flex;
+  }
+
+  .ellipse_19:nth-child(even) {
+    flex-direction: row-reverse;
+    margin: 6% 6%;
+  }
+
+  .ellipse_19:nth-child(odd) {
+    margin: 5% 5%;
+  }
+
+  .recent_work {
+    text-align: left;
+    color: #9390ff;
+    font-size: 25px;
+    margin: 2vh 6%;
+    border-bottom: 3px solid #3a3837 !important;
+  }
+
+  .recent-mobile {
+    display: none;
+  }
+
+  .languages h3 {
+    font-size: 18px;
+  }
+
+  .projects > article {
+    padding: 0 !important;
+  }
+
+  .img_placeholder {
+    height: 400px;
+    width: 500px;
+  }
+
+  .ellipse {
+    display: none;
+  }
+
+  .tags ul {
+    margin-left: -20px;
   }
 }
