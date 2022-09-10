@@ -131,7 +131,6 @@ projectBtns.forEach((projectBtn) => {
 });
 
 // Form Validation;
-
 const form = document.getElementById('form');
 const errorAlert = document.getElementById('error_msg');
 
@@ -141,6 +140,6 @@ form.addEventListener('submit', (e) => {
   if (email === email.toLowerCase()) {
     form.submit();
   } else {
-    // Add your piece of code here
+    errorAlert.innerText = 'Email should be in lowercase';
   }
 });
