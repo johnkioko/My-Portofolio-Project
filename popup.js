@@ -129,3 +129,18 @@ projectBtns.forEach((projectBtn) => {
     modalContent(projectObj);
   });
 });
+
+// Form Validation;
+
+const form = document.getElementById('form');
+const errorAlert = document.getElementById('error_msg');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = form.elements.email.value;
+  if (email === email.toLowerCase()) {
+    form.submit();
+  } else {
+    // Add your piece of code here
+  }
+});
