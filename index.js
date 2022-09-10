@@ -1,4 +1,3 @@
-// Mobile hamburger menu
 const hamburger = document.querySelector('.hamberg');
 const navMenu = document.querySelector('.menu-list');
 

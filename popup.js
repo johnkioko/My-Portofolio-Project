@@ -128,3 +128,18 @@ projectBtns.forEach((projectBtn) => {
     modalContent(projectObj);
   });
 });
+
+const form = document.getElementById('form');
+const errorAlert = document.getElementById('error_msg');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = form.elements.email.value;
+  if (email === email.toLowerCase()) {
+    form.submit();
+  } else {
+    errorAlert.innerText = 'Email should be in lowercase';
+    errorAlert.style.color = 'red';
+    errorAlert.style.marginLeft = '7px';
+  }
+});
