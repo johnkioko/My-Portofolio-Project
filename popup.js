@@ -132,6 +132,8 @@ projectBtns.forEach((projectBtn) => {
 const form = document.getElementById('form');
 const errorAlert = document.getElementById('error_msg');
 
+errorAlert.style.color = 'red';
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = form.elements.email.value;
