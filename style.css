@@ -139,12 +139,8 @@
   .ellipse-22,
   .arrow-left,
   .arrow-right,
-  .mail-icon {
-    display: none;
-  }
-
-  .arrow-right img,
-  .circle-1 {
+  .mail-icon,
+  .arrow-right img {
     display: none;
   }
 
