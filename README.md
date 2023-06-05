@@ -34,9 +34,9 @@ Any browser
 
 👤 **John Mutisya**
 
-- GitHub: [@githubhandle](https://github.com/johnkioko)
-- Twitter: [@twitterhandle](https://twitter.com/@john_the_web_dev)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/johnkioko)
+- GitHub: [John Mutisya](https://github.com/johnkioko)
+- Twitter: [@John_Web_Dev](https://twitter.com/@john_the_web_dev)
+- LinkedIn: [John Mutisya](https://linkedin.com/in/johnkioko)
 
 👤
 
