@@ -248,13 +248,13 @@ header {
   padding-left: 0;
 }
 
-main {
+/* main {
   position: relative;
   background-image: url('./images/ellipse_19m.png'), url('./images/Ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
   background-repeat: no-repeat;
   background-position: right 18.5em, left 69em, right 105em, left 151em, right 185em;
   background-size: 5em, 11em, 10em, 11em, 11em;
-}
+} */
 
 .menu_items li span {
   color: #acb7c3;
@@ -769,22 +769,15 @@ fieldset {
     margin: 0;
   }
 
-  main {
-    position: absolute;
-    background-image: url('./images/desk_ellipse_19.png'), url('./images/desk_ellipse_20.png'), url('./images/desk_ellipse_21.png'), url('./images/desk_ellipse_22.png') !important;
-    background-repeat: no-repeat;
-    background-position: left 70em, right 114em, left 155em, right 172em;
-    background-size: 20em, 17em, 15em, 17em;
-  }
-
   #toggleBtn {
     display: none;
   }
 
   .post_info {
+    width: 35%;
     text-align: start;
+    padding: 2em;
     margin-left: 0;
-    margin-right: 3em;
   }
 
   .menu_items {
@@ -839,19 +832,27 @@ fieldset {
 
   .ellipse_19 {
     display: flex;
+    max-width: 100%;
   }
 
   .ellipse_19:nth-child(odd) .post_info {
-    margin-left: 2%;
+    margin-left: 0;
   }
 
-  .ellipse_19:nth-child(even) {
+  .ellipse_19:nth-child(even)  {
     flex-direction: row-reverse;
-    margin: 6% 6%;
   }
 
-  .ellipse_19:nth-child(odd) {
-    margin: 5% 5%;
+  #img_placeholder {
+    width: 60%;
+    height: 300px;
+    margin: 2em;
+  }
+
+  .imgPlaceholder {
+    width: 100%;
+    height: 100%;
+    padding: 1em 1em 0 0;
   }
 
   .recent_work {
@@ -928,11 +929,6 @@ fieldset {
 
   .projects > article {
     padding: 0 !important;
-  }
-
-  .img_placeholder {
-    height: 500px;
-    width: 800px;
   }
 
   .ellipse {

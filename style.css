@@ -1238,27 +1238,6 @@
     font-size: 16px;
   }
 
-  .ellipse_19 {
-    display: flex;
-  }
-
-  .ellipse_19:nth-child(even) {
-    flex-direction: row-reverse;
-    margin: 6% 6%;
-  }
-
-  .ellipse_19:nth-child(odd) {
-    margin: 5% 5%;
-  }
-
-  .recent_work {
-    text-align: left;
-    color: #9390ff;
-    font-size: 25px;
-    margin: 2vh 6%;
-    border-bottom: 3px solid #3a3837 !important;
-  }
-
   .recent-mobile {
     display: none;
   }

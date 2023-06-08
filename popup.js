@@ -1,4 +1,4 @@
-const projectContainer = document.querySelector('#project-list');
+const projectContainer = document.getElementById('ellipse_19');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
 const blurGround = document.querySelector('.blurBg');
@@ -50,10 +50,8 @@ projectArray.forEach((project, index) => {
     </li>`;
   });
 
-  const projectItem = `<section class="ellipse_19">
-    <figure class="img_placeholder">
-      <img class="imagePlaceholder" src=${project.img} alt="project image">
-    </figure>
+  const projectItem = `<div class="ellipse_19">
+      <div id="img_placeholder"><img class="imgPlaceholder" src=${project.img} alt="project image"></div>
 
     <section class="post_info">
       <article>
@@ -74,7 +72,7 @@ projectArray.forEach((project, index) => {
 
       <button class="button" id=${index}>See Projects</button>
     </section>
-  </section>`;
+  </div>`;
 
   projectContainer.innerHTML += projectItem;
 });
@@ -118,12 +116,10 @@ const modalContent = (project) => {
 
   <section id="button-group">
     <button type="button" class="demo-button">
-      <span><a href=${project.linkDemo} Target="_blank">See Live</a></span> 
-      <span><img id="live-icon" src="/images/Icon.png" alt="live icon"></span>
+      <span><a href=${project.linkDemo} Target="_blank">See Live <img id="live-icon" src="/images/Icon.png" alt="live icon"></a></span>
     </button>
     <button type="button" class="source-button">
-      <span><a href=${project.sourceCode} Target="_blank">See Source</a></span> 
-      <span><img class="github-icon" src="/images/Vector.png" alt="source icon"></span>
+      <span><a href=${project.sourceCode} Target="_blank">See Code <img class="github-icon" src="/images/Vector.png" alt="source icon"></a></span>
     </button> 
   </section>
 `;
