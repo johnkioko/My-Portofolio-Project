@@ -108,18 +108,18 @@ const modalContent = (project) => {
 
  
   <article class="tags">
-  <ul>
+  <ul class="modal-ul">
     ${tech}
   </ul>
 </article>
     
 
   <section id="button-group">
-    <button type="button" class="demo-button">
+    <button type="button" class="demo-button button">
       <span><a href=${project.linkDemo} Target="_blank">See Live <img id="live-icon" src="/images/Icon.png" alt="live icon"></a></span>
     </button>
-    <button type="button" class="source-button">
-      <span><a href=${project.sourceCode} Target="_blank">See Code <img class="github-icon" src="/images/Vector.png" alt="source icon"></a></span>
+    <button type="button" class="source-button button">
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="/images/Vector.png" alt="source icon"></a></span>
     </button> 
   </section>
 `;
