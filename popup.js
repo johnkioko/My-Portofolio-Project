@@ -17,7 +17,7 @@ const projectArray = [
     name: 'Bookstore CMS',
     description:
       "The Bookstore is a user-friendly website built using React and Redux. It offers valuable features like displaying a book list, adding new books, and removing selected books. These functionalities enhance the user experience, making it effortless to explore and manage a diverse collection of books.",
-    img: 'images/bookstore-CMS.png',
+    img: 'images/bookstore-CMS.PNG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/bookstore/',
     sourceCode: 'https://github.com/johnkioko/bookstore.git',
@@ -26,7 +26,7 @@ const projectArray = [
     name: 'Crypto-Coin',
     description:
       "This is a React app that utilizes a crypto API to fetch real-time cryptocurrency data and display it in an interactive manner.",
-    img: 'images/cryptocoin-currency.png',
+    img: 'images/cryptocoin-currency.PNG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/crypto-coin/',
     sourceCode: 'https://github.com/johnkioko/crypto-coin.git',
@@ -35,7 +35,7 @@ const projectArray = [
     name: 'Recipe App',
     description:
       "A web app that allow users to add food and create recipes, the app is built with Ruby on Rails and has a user authentication and an authorization system.",
-    img: "images/recipeApp.png",
+    img: "images/recipeApp.PNG",
     technologies: ['CSS', 'Html', 'JavaScript', 'Ruby'],
     linkDemo: 'https://github.com/Daphineatim/Recipe-App.git',
     sourceCode: 'https://github.com/Daphineatim/Recipe-App.git',
