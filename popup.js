@@ -8,7 +8,7 @@ const projectArray = [
     name: 'SEO Static Website',
     description:
       "An SEO corporate static website that lists services related to search engine optimization and digital marketing. Built with Html, CSS, and JavaScript. It's mobile responsive and scales well on different devices with different screen sizes.",
-    img: '/images/SEO-static-website.PNG',
+    img: '/blob/main/images/SEO-static-website.PNG',
     technologies: ['CSS', 'Html', 'JavaScript'],
     linkDemo: 'https://johnkioko.github.io/Capstone-Web-Project/index.html',
     sourceCode: 'https://github.com/johnkioko/Capstone-Web-Project.git',
