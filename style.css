@@ -144,7 +144,7 @@
     display: none;
   }
 
-  .eclipse-1 {
+  /* .eclipse-1 {
     position: absolute;
     height: 250px;
     width: 100px;
@@ -159,7 +159,7 @@
     height: 20%;
     width: 20%;
     right: 0;
-  }
+  } */
 
   .header-section-heading {
     display: flex;
@@ -680,20 +680,20 @@
 
   .circle-1 {
     position: absolute;
-    width: 184px;
-    height: 184px;
+    width: 180px;
+    height: 180px;
     left: 30px;
-    top: 170px;
+    top: 150px;
   }
 
   .circle-2 {
+    position: absolute;
     background-image: url("images/circle-2.svg");
     background-color: #edecff;
     background-repeat: no-repeat;
     width: 10%;
     height: 25%;
-    position: absolute;
-    margin-top: 300px;
+    margin-top: 250px;
     right: 80px;
     filter: blur(30px);
   }
