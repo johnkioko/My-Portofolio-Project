@@ -248,14 +248,6 @@ header {
   padding-left: 0;
 }
 
-/* main {
-  position: relative;
-  background-image: url('./images/ellipse_19m.png'), url('./images/Ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
-  background-repeat: no-repeat;
-  background-position: right 18.5em, left 69em, right 105em, left 151em, right 185em;
-  background-size: 5em, 11em, 10em, 11em, 11em;
-} */
-
 .menu_items li span {
   color: #acb7c3;
   position: absolute;
