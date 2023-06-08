@@ -1,44 +1,44 @@
-const projectContainer = document.querySelector('#project-list');
+const projectContainer = document.getElementById('ellipse_19');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
 const blurGround = document.querySelector('.blurBg');
 
 const projectArray = [
   {
-    name: 'Multi-Post Stories',
+    name: 'SEO Static Website',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    img: '/images/placeholder.png',
-    technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
-    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
+      "An SEO corporate static website that lists services related to search engine optimization and digital marketing. Built with Html, CSS, and JavaScript. It's mobile responsive and scales well on different devices with different screen sizes.",
+    img: '/images/SEO-static-website.PNG',
+    technologies: ['CSS', 'Html', 'JavaScript'],
+    linkDemo: 'https://johnkioko.github.io/Capstone-Web-Project/index.html',
+    sourceCode: 'https://github.com/johnkioko/Capstone-Web-Project.git',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Bookstore CMS',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    img: '/images/placeholder.png',
-    technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
-    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
+      "The Bookstore is a user-friendly website built using React and Redux. It offers valuable features like displaying a book list, adding new books, and removing selected books. These functionalities enhance the user experience, making it effortless to explore and manage a diverse collection of books.",
+    img: '/images/bookstore-CMS.png',
+    technologies: ['CSS', 'Html', 'React', 'Redux'],
+    linkDemo: 'https://johnkioko.github.io/bookstore/',
+    sourceCode: 'https://github.com/johnkioko/bookstore.git',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Crypto-Coin',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    img: '/images/placeholder.png',
-    technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
-    sourceCode: 'https://github.com/johnkioko/porfolio_projects/tree/main',
+      "This is a React app that utilizes a crypto API to fetch real-time cryptocurrency data and display it in an interactive manner.",
+    img: '/images/cryptocoin-currency.png',
+    technologies: ['CSS', 'Html', 'React', 'Redux'],
+    linkDemo: 'https://johnkioko.github.io/crypto-coin/',
+    sourceCode: 'https://github.com/johnkioko/crypto-coin.git',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Recipe App',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    img: '/images/placeholder.png',
-    technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: 'https://johnkioko.github.io/My-Portofolio-Project/',
-    sourceCode: 'https://github.com/johnkiokom/porfolio_projects/tree/main',
+      "A web app that allow users to add food and create recipes, the app is built with Ruby on Rails and has a user authentication and an authorization system.",
+    img: '/images/recipeApp.png',
+    technologies: ['CSS', 'Html', 'JavaScript', 'Ruby'],
+    linkDemo: 'https://github.com/Daphineatim/Recipe-App.git',
+    sourceCode: 'https://github.com/Daphineatim/Recipe-App.git',
   },
 ];
 
@@ -50,10 +50,8 @@ projectArray.forEach((project, index) => {
     </li>`;
   });
 
-  const projectItem = `<section class="ellipse_19">
-    <figure class="img_placeholder">
-      <img class="imagePlaceholder" src=${project.img} alt="project image">
-    </figure>
+  const projectItem = `<div class="ellipse_19">
+      <div id="img_placeholder"><img class="imgPlaceholder" src=${project.img} alt="project image"></div>
 
     <section class="post_info">
       <article>
@@ -74,7 +72,7 @@ projectArray.forEach((project, index) => {
 
       <button class="button" id=${index}>See Projects</button>
     </section>
-  </section>`;
+  </div>`;
 
   projectContainer.innerHTML += projectItem;
 });
@@ -90,6 +88,14 @@ modalBtn.addEventListener('click', () => {
 });
 
 const modalContent = (project) => {
+
+  let tech = '';
+  project.technologies.forEach((item) => {
+    tech += `<li class="tech-item">
+    <span>${item}</span>
+    </li>`;
+  });
+
   blurGround.style.opacity = '0.01';
 
   const modal = `
@@ -97,23 +103,23 @@ const modalContent = (project) => {
     <h2>${project.name}</h2>
   </section>
 
-  <figure><img src='./images/portfolio.png' alt="Project Image"></figure>
+  <figure><img src=${project.img}  alt="Project Image"></figure>
   <p>${project.description}.</p>
 
-  <ul class="tags">
-    <li>html</li>
-    <li>Ruby on rails</li>
-    <li>CSS</li>
+ 
+  <article class="tags">
+  <ul class="modal-ul">
+    ${tech}
   </ul>
+</article>
+    
 
   <section id="button-group">
-    <button type="button" class="demo-button">
-      <span><a href="https://johnkioko.github.io/My-Portofolio-Project/" Target="_blank">See Live</a></span> 
-      <span><img id="live-icon" src="/images/Icon.png" alt="live icon"></span>
+    <button type="button" class="demo-button button">
+      <span><a href=${project.linkDemo} Target="_blank">See Live <img id="live-icon" src="/images/Icon.png" alt="live icon"></a></span>
     </button>
-    <button type="button" class="source-button">
-      <span><a href="https://github.com/johnkioko/My-Portofolio-Project" Target="_blank">See Source</a></span> 
-      <span><img class="github-icon" src="/images/Vector.png" alt="source icon"></span>
+    <button type="button" class="source-button button">
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="/images/Vector.png" alt="source icon"></a></span>
     </button> 
   </section>
 `;

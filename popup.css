@@ -10,7 +10,6 @@ body {
 html,
 body {
   width: 100%;
-  height: 100%;
   margin: 0;
   overflow-x: hidden;
 }
@@ -180,35 +179,19 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2vh 0;
+  margin: 2em;
 }
 
-#button-group button span:nth-child(2) img {
-  width: 1em;
-  height: 1em;
-}
-
-.demo-button {
+.demo-button,
+.source-button {
   border: none;
-  width: 120px;
+  width: auto;
   text-align: start;
   background: #7d73fc;
   height: 50px;
   color: #edecff;
   font-size: 17px;
   padding: 8px;
-}
-
-.source-button {
-  border: none;
-  width: 140px;
-  margin: 2vh 0;
-  text-align: start;
-  background: #7d73fc;
-  height: 50px;
-  color: #edecff;
-  font-size: 17px;
-  padding: 7px;
 }
 
 header a {
@@ -249,14 +232,6 @@ header {
   padding-left: 0;
 }
 
-main {
-  position: relative;
-  background-image: url('./images/ellipse_19m.png'), url('./images/Ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
-  background-repeat: no-repeat;
-  background-position: right 18.5em, left 69em, right 105em, left 151em, right 185em;
-  background-size: 5em, 11em, 10em, 11em, 11em;
-}
-
 .menu_items li span {
   color: #acb7c3;
   position: absolute;
@@ -271,7 +246,7 @@ main {
 
 #btn_close {
   position: relative;
-  left: 92%;
+  left: 100%;
   background-color: transparent;
   color: white;
   font-size: 18px;
@@ -293,6 +268,9 @@ main {
   flex-direction: row;
   justify-content: center;
 }
+
+
+/* Mobile Version */
 
 @media screen and (max-width: 768px) {
   .brand {
@@ -332,6 +310,23 @@ main {
   .desk_button {
     display: none;
   }
+
+  .ellipse_19 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 100%;
+  }
+  
+  #img_placeholder {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imgPlaceholder {
+    width: 100%;
+    height: 100%;
+  }
+  
 }
 
 .projects {
@@ -412,11 +407,33 @@ hr {
   margin-bottom: 10px;
 }
 
-.img_placeholder {
+/* .ellipse_19 {
+  display: grid;
+  height: auto;
+  grid-template-columns: 100%;
+}
+
+#img_placeholder {
   width: 100%;
+  border: solid 10px red;
+  height: 100%;
+}
+
+.imgPlaceholder {
+  width: 100%;
+  height: 100%;
+}
+
+.img_placeholder {
+  width: 10%;
   display: flex;
   justify-content: center;
   margin-left: 0;
+} */
+
+.post_info {
+  text-align: start;
+  margin-left: 9%;
 }
 
 .button {
@@ -540,14 +557,13 @@ fieldset {
   justify-content: center;
 }
 
-.post_info {
-  text-align: start;
-  margin-left: 9%;
-}
-
 .work {
   display: flex;
   margin-bottom: 20px;
+  justify-content: center;
+}
+
+.modal-ul {
   justify-content: center;
 }
 
@@ -701,38 +717,16 @@ fieldset {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 5vh 0;
-    margin-left: 5%;
   }
 
-  #button-group button span:nth-child(2) img {
-    width: 1em;
-    height: 1em;
-    margin-left: 2px;
-  }
-
-  .demo-button {
-    border: none;
-    width: 140px;
-    text-align: start;
-    background: #7d73fc;
-    height: 50px;
-    color: #edecff;
-    font-size: 18px;
-    padding: 10px;
-  }
-
+  .demo-button,
   .source-button {
-    border: none;
-    width: 140px;
-    margin: 5vh;
-    text-align: start;
-    background: #7d73fc;
-    height: 53px;
-    color: #edecff;
-    font-size: 18px;
-    padding: 10px;
-  }
+    margin: 4em 2em;
+}
+
+.source-button {
+  margin-left: 0.5em;
+}
 
   .demo-button span a,
   .source-button span a {
@@ -767,22 +761,15 @@ fieldset {
     margin: 0;
   }
 
-  main {
-    position: absolute;
-    background-image: url('./images/desk_ellipse_19.png'), url('./images/desk_ellipse_20.png'), url('./images/desk_ellipse_21.png'), url('./images/desk_ellipse_22.png') !important;
-    background-repeat: no-repeat;
-    background-position: left 70em, right 114em, left 155em, right 172em;
-    background-size: 20em, 17em, 15em, 17em;
-  }
-
   #toggleBtn {
     display: none;
   }
 
   .post_info {
+    width: 35%;
     text-align: start;
+    padding: 2em;
     margin-left: 0;
-    margin-right: 3em;
   }
 
   .menu_items {
@@ -837,19 +824,27 @@ fieldset {
 
   .ellipse_19 {
     display: flex;
+    max-width: 100%;
   }
 
   .ellipse_19:nth-child(odd) .post_info {
-    margin-left: 2%;
+    margin-left: 0;
   }
 
-  .ellipse_19:nth-child(even) {
+  .ellipse_19:nth-child(even)  {
     flex-direction: row-reverse;
-    margin: 6% 6%;
   }
 
-  .ellipse_19:nth-child(odd) {
-    margin: 5% 5%;
+  #img_placeholder {
+    width: 60%;
+    height: 300px;
+    margin: 2em;
+  }
+
+  .imgPlaceholder {
+    width: 100%;
+    height: 100%;
+    padding: 1em 1em 0 0;
   }
 
   .recent_work {
@@ -926,11 +921,6 @@ fieldset {
 
   .projects > article {
     padding: 0 !important;
-  }
-
-  .img_placeholder {
-    height: 500px;
-    width: 800px;
   }
 
   .ellipse {

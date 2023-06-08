@@ -96,7 +96,7 @@
     position: absolute;
     display: none;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     top: 70px;
     left: 0;
     right: 0;
@@ -144,7 +144,7 @@
     display: none;
   }
 
-  .eclipse-1 {
+ .eclipse-1 {
     position: absolute;
     height: 250px;
     width: 100px;
@@ -159,11 +159,12 @@
     height: 20%;
     width: 20%;
     right: 0;
-  }
+  } */
 
   .header-section-heading {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -173,6 +174,10 @@
     color: #7d73fc;
     animation-name: heading-1;
     animation-duration: 5s;
+  }
+
+  #About {
+    text-align: center;
   }
 
   @keyframes heading-1 {
@@ -351,6 +356,7 @@
   .posts .tags {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 0;
     gap: 8px;
@@ -680,20 +686,20 @@
 
   .circle-1 {
     position: absolute;
-    width: 184px;
-    height: 184px;
+    width: 180px;
+    height: 180px;
     left: 30px;
-    top: 170px;
+    top: 150px;
   }
 
   .circle-2 {
+    position: absolute;
     background-image: url("images/circle-2.svg");
     background-color: #edecff;
     background-repeat: no-repeat;
     width: 10%;
     height: 25%;
-    position: absolute;
-    margin-top: 300px;
+    margin-top: 250px;
     right: 80px;
     filter: blur(30px);
   }
@@ -995,7 +1001,7 @@
     color: #dfe1e6;
   }
 
-  .tags-1 {
+  /* .tags-1 {
     display: flex;
     align-items: center;
     padding: 0;
@@ -1011,7 +1017,7 @@
     width: 302px;
     height: 40px;
     color: #fff;
-  }
+  } */
 
   .projects-btn-1 {
     display: flex;
@@ -1069,7 +1075,7 @@
     margin: 4%;
   }
 
-  .tags-2 {
+  /* .tags-2 {
     display: flex;
     align-items: center;
     padding: 0;
@@ -1085,7 +1091,7 @@
     padding: 0;
     gap: 8px;
     color: #fff;
-  }
+  } */
 
   .projects-btn-2 {
     display: flex;
@@ -1238,27 +1244,6 @@
     font-size: 16px;
   }
 
-  .ellipse_19 {
-    display: flex;
-  }
-
-  .ellipse_19:nth-child(even) {
-    flex-direction: row-reverse;
-    margin: 6% 6%;
-  }
-
-  .ellipse_19:nth-child(odd) {
-    margin: 5% 5%;
-  }
-
-  .recent_work {
-    text-align: left;
-    color: #9390ff;
-    font-size: 25px;
-    margin: 2vh 6%;
-    border-bottom: 3px solid #3a3837 !important;
-  }
-
   .recent-mobile {
     display: none;
   }
@@ -1280,7 +1265,7 @@
     display: none;
   }
 
-  .tags ul {
+  /* .tags ul {
     margin-left: -20px;
-  }
+  } */
 }
