@@ -18,9 +18,12 @@
     margin: 0 auto;
   }
 
+  header {
+    width: 100%;
+  }
+
   .main-wrapper {
-    position: relative;
-    top: 5px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,15 +31,12 @@
     height: auto;
     background-color: rgb(12, 12, 88);
     color: #fff;
+    z-index: 1;
+    overflow:hidden;
   }
 
   hr {
     border: 0.5px solid #646369;
-  }
-
-  header {
-    width: 100%;
-    margin: 20px 0;
   }
 
   .navbar {
@@ -45,6 +45,10 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    background-color: rgb(12, 12, 88);
   }
 
   .nav-left {
@@ -96,8 +100,8 @@
     position: absolute;
     display: none;
     width: 100%;
-    height: 100vh;
-    top: 70px;
+    height: 185vh;
+    top: 10px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -159,7 +163,7 @@
     height: 20%;
     width: 20%;
     right: 0;
-  } */
+  }
 
   .header-section-heading {
     display: flex;
@@ -169,6 +173,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    margin-top: 1em;
     text-align: center;
     letter-spacing: 0.37px;
     color: #7d73fc;
@@ -544,6 +549,14 @@
   .main-wrapper {
     max-width: 90%;
     margin: 0 auto;
+  }
+
+  header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100000;
+    background: #191765;
   }
 
   .contactus-section,
