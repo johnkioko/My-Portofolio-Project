@@ -1,4 +1,4 @@
-const projectContainer = document.getElementById ('ellipse_19');
+const projectContainer = document.getElementById('ellipse_19');
 const modalContainer = document.querySelector('#detail');
 const modalMainContainer = document.querySelector('#detail1');
 const blurGround = document.querySelector('.blurBg');
@@ -77,8 +77,6 @@ projectArray.forEach((project, index) => {
   projectContainer.innerHTML += projectItem;
 });
 
-
-
 const modalBtn = document.querySelector('#modal-close');
 
 modalBtn.addEventListener('click', () => {
@@ -114,13 +112,13 @@ const modalContent = (project) => {
   </article>
 
   <section id="button-group">
-    <button type="button" class="demo-button">
-    <span><a href='${project.linkDemo}' Target="_blank">See Live <img id="live-icon" src="/images/Icon.PNG" alt="live icon"></a></span>
+    <button class="source-button">
+      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src="/images/Icon.PNG" alt="live icon"></a></span>
     </button>
-    <button type="button" class="source-button" id="button-group">
-    <span><a href='${project.sourceCode}' Target="_blank">See code <img class="github-icon" src="/images/Vector.PNG" alt="source icon"></a></span>
+    <button type="button" class="source-button">
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="/images/Vector.PNG" alt="source icon"></a></span>
     </button>
-  </section
+  </section>
 `;
   modalContainer.innerHTML = modal;
   modalMainContainer.style.display = 'block';

@@ -13,23 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* #detail {
-  border: 1px solid #fff;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: fixed;
-  height: 95vh;
-  overflow-y: scroll;
-  background-color: rgba(255, 255, 255, 0.16);
-  width: 100%;
-  max-width: 90%;
-  margin: 10px auto;
-  margin-top: 20px;
-} */
-
 a h2 {
   margin: 20px;
 }
@@ -234,7 +217,6 @@ header {
   justify-content: center;
 }
 
-
 /* Mobile Version */
 
 @media screen and (max-width: 768px) {
@@ -311,6 +293,7 @@ header {
     max-width: 90%;
     margin: 10px auto;
     margin-top: 20px;
+    z-index: 11;
   }
   
   a h2 {
@@ -379,8 +362,9 @@ header {
     border: none;
     color: #fff;
     font-size: 15px;
-    z-index: 10;
+    z-index: 12;
     background-color: transparent;
+    cursor: pointer;
   }
 
   #detail .tags li:first-child {
@@ -411,6 +395,7 @@ header {
     margin: 1em;
     border-radius: 4px;
     cursor: pointer;
+    z-index: 11;
   }
 
 }
