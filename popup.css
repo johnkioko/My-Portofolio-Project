@@ -214,16 +214,15 @@ ul {
     height: auto;
     grid-template-columns: 100%;
   }
-  
-  .imgPlaceholder {
-    max-width: 98%;
-    height: auto;
-    margin: 1em auto;
-  }
 
   #img_placeholder {
     width: 100%;
     height: auto;
+  }
+
+  #img_placeholder img {
+    width:100%;
+    margin: 1em auto;
   }
 
   #detail1 {
@@ -848,9 +847,8 @@ fieldset {
     margin: 2em;
   }
 
-  .imgPlaceholder {
+  #img_placeholder img {
     width: 100%;
-    height: 100%;
     padding: 1em 1em 0 0;
   }
 
