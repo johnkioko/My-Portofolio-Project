@@ -8,7 +8,7 @@ const projectArray = [
     name: 'SEO Static Website',
     description:
       "An SEO corporate static website that lists services related to search engine optimization and digital marketing. Built with Html, CSS, and JavaScript. It's mobile responsive and scales well on different devices with different screen sizes.",
-    img: '/images/seo-static-web.JPG',
+    img: 'images/seo-static-web.JPG',
     technologies: ['CSS', 'Html', 'JavaScript'],
     linkDemo: 'https://johnkioko.github.io/Capstone-Web-Project/index.html',
     sourceCode: 'https://github.com/johnkioko/Capstone-Web-Project.git',
@@ -17,7 +17,7 @@ const projectArray = [
     name: 'Bookstore CMS',
     description:
       "The Bookstore is a user-friendly website built using React and Redux. It offers valuable features like displaying a book list, adding new books, and removing selected books. These functionalities enhance the user experience, making it effortless to explore and manage a diverse collection of books.",
-    img: '/images/bookstore-CMS.JPG',
+    img: 'images/bookstore-CMS.JPG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/bookstore/',
     sourceCode: 'https://github.com/johnkioko/bookstore.git',
@@ -26,7 +26,7 @@ const projectArray = [
     name: 'Crypto-Coin',
     description:
       "This is a React app that utilizes a crypto API to fetch real-time cryptocurrency data and display it in an interactive manner.",
-    img: '/images/crypto.JPG',
+    img: 'images/crypto.JPG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/crypto-coin/',
     sourceCode: 'https://github.com/johnkioko/crypto-coin.git',
@@ -35,7 +35,7 @@ const projectArray = [
     name: 'Recipe App',
     description:
       "A web app that allows users to add food and create recipes, the app is built with Ruby on Rails and has a user authentication and an authorization system.",
-    img: '/images/recipe-app.JPG',
+    img: 'images/recipe-app.JPG',
     technologies: ['CSS', 'Html', 'JavaScript', 'Ruby'],
     linkDemo: 'https://github.com/Daphineatim/Recipe-App.git',
     sourceCode: 'https://github.com/Daphineatim/Recipe-App.git',
@@ -115,10 +115,10 @@ const modalContent = (project) => {
 
   <section id="button-group">
     <button class="source-button">
-      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src="/images/Icon.PNG" alt="live icon"></a></span>
+      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src="images/Icon.PNG" alt="live icon"></a></span>
     </button>
     <button type="button" class="source-button">
-      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="/images/Vector.PNG" alt="source icon"></a></span>
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="images/Vector.PNG" alt="source icon"></a></span>
     </button>
   </section>
 `;
