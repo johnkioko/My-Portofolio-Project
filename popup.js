@@ -8,7 +8,7 @@ const projectArray = [
     name: 'SEO Static Website',
     description:
       "An SEO corporate static website that lists services related to search engine optimization and digital marketing. Built with Html, CSS, and JavaScript. It's mobile responsive and scales well on different devices with different screen sizes.",
-    img: 'images/SEO-static-website.PNG',
+    img: '/images/seo-static-web.JPG',
     technologies: ['CSS', 'Html', 'JavaScript'],
     linkDemo: 'https://johnkioko.github.io/Capstone-Web-Project/index.html',
     sourceCode: 'https://github.com/johnkioko/Capstone-Web-Project.git',
@@ -17,7 +17,7 @@ const projectArray = [
     name: 'Bookstore CMS',
     description:
       "The Bookstore is a user-friendly website built using React and Redux. It offers valuable features like displaying a book list, adding new books, and removing selected books. These functionalities enhance the user experience, making it effortless to explore and manage a diverse collection of books.",
-    img: 'images/bookstore-CMS.PNG',
+    img: '/images/bookstore-CMS.JPG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/bookstore/',
     sourceCode: 'https://github.com/johnkioko/bookstore.git',
@@ -26,7 +26,7 @@ const projectArray = [
     name: 'Crypto-Coin',
     description:
       "This is a React app that utilizes a crypto API to fetch real-time cryptocurrency data and display it in an interactive manner.",
-    img: 'images/cryptocoin-currency.PNG',
+    img: '/images/crypto.JPG',
     technologies: ['CSS', 'Html', 'React', 'Redux'],
     linkDemo: 'https://johnkioko.github.io/crypto-coin/',
     sourceCode: 'https://github.com/johnkioko/crypto-coin.git',
@@ -34,8 +34,8 @@ const projectArray = [
   {
     name: 'Recipe App',
     description:
-      "A web app that allow users to add food and create recipes, the app is built with Ruby on Rails and has a user authentication and an authorization system.",
-    img: "images/recipeApp.PNG",
+      "A web app that allows users to add food and create recipes, the app is built with Ruby on Rails and has a user authentication and an authorization system.",
+    img: '/images/recipe-app.JPG',
     technologies: ['CSS', 'Html', 'JavaScript', 'Ruby'],
     linkDemo: 'https://github.com/Daphineatim/Recipe-App.git',
     sourceCode: 'https://github.com/Daphineatim/Recipe-App.git',
@@ -51,7 +51,9 @@ projectArray.forEach((project, index) => {
   });
 
   const projectItem = `<div class="ellipse_19">
-      <div id="img_placeholder"><img class="imgPlaceholder" src=${project.img} alt="project image"></div>
+      <div id="img_placeholder">
+        <img class="imgPlaceholder" src=${project.img} alt="project image">
+      </div>
 
     <section class="post_info">
       <article>
@@ -76,8 +78,6 @@ projectArray.forEach((project, index) => {
 
   projectContainer.innerHTML += projectItem;
 });
-
-const projectBtns = document.querySelectorAll('.button');
 
 const modalBtn = document.querySelector('#modal-close');
 
@@ -111,22 +111,22 @@ const modalContent = (project) => {
   <ul class="modal-ul">
     ${tech}
   </ul>
-</article>
-    
+  </article>
 
   <section id="button-group">
-    <button type="button" class="demo-button button">
-      <span><a href=${project.linkDemo} Target="_blank">See Live <img id="live-icon" src="Icon.png" alt="live icon"></a></span>
+    <button class="source-button">
+      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src="/images/Icon.PNG" alt="live icon"></a></span>
     </button>
-    <button type="button" class="source-button button">
-      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="Vector.png" alt="source icon"></a></span>
-    </button> 
+    <button type="button" class="source-button">
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="/images/Vector.PNG" alt="source icon"></a></span>
+    </button>
   </section>
 `;
   modalContainer.innerHTML = modal;
   modalMainContainer.style.display = 'block';
 };
 
+const projectBtns = document.querySelectorAll('.button');
 projectBtns.forEach((projectBtn) => {
   projectBtn.addEventListener('click', (e) => {
     const getBtnId = e.target.getAttribute('id');
