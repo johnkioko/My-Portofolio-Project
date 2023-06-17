@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,40 +11,31 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="style.css" />
 
-    <title>John Mutisya's Portofolio</title>
+    <title>John Mutisya's Portfolio</title>
   </head>
   <body>
     <section id="detail1">
       <button type="button" id="modal-close">X</button>
-      <div id="detail"></div>
+      <div id="detail">
+        <button id="btn"></button>
+      </div>
     </section>
     <div class="blurBg">
       <section class="main-wrapper">
         <header>
-          <nav class="navbar">
+          <nav id="navbar" class="navbar">
             <a href="#" class="nav-left">John Mutisya</a>
             <ul class="menu-list">
               <li class="menu-list-items">
-                <a class="menu-list-link" href="#Portofolio">Portofolio</a
+                <a class="menu-list-link" href="#project-s">Projects</a
                 ><span class="mobile-span"> > </span>
               </li>
               <li class="menu-list-items">
-                <a class="menu-list-link" href="#About">About</a>
-                <span class="mobile-span"> > </span>
-              </li>
-              <li class="menu-list-items">
-                <a class="menu-list-link" href="#Contact">Contact</a>
-                <span class="mobile-span"> ></span>
-              </li>
-              <li class="menu-list-items">
-                <img
-                  class="menu-list-link mail-icon"
-                  src="./images/mail-icon-removebg-preview.png"
-                  alt=""
-                />
+                <a class="menu-list-link" href="#contact-me">Contact</a
+                ><span class="mobile-span"> > </span>
               </li>
             </ul>
 
@@ -62,18 +53,19 @@
             src="./images/Ellipse_18.png"
             alt="background image 1"
           />
+
           <img
-            class="circle-1"
-            src="./images/circle-1.svg"
-            alt="background image 1 desktop"
-          />
+          class="circle-1"
+          src="./images/circle-1.svg"
+          alt="background image 1 desktop"/>
+        
           <div class="heading-section-header">
-            <h1 class="header-section-heading" id="About">John mutisya</h1>
+            <h1 class="header-section-heading" id="About">John Mutisya</h1>
             <h2 class="header-section-heading-2">Software Developer</h2>
           </div>
           <p class="header-section-paragraph">
             I can help you build a product, <br />
-            feature or website Look through<br />
+            feature or website. Look through<br />
             some of my work and experience! If<br />
             you like what you see and have a <br />
             project you need coded, don't<br />
@@ -81,7 +73,7 @@
           </p>
           
           <p class="header-section-desktop-paragraph">
-            I can help you build a product, feature or website <br />
+            I can help you build a product, feature or website.<br />
             Look through some of my work and experience! If<br />
             you like what you see and have a project you need <br />
             coded, don't hesitate to contact me.
@@ -111,8 +103,7 @@
                 <li>Bootstrap</li>
                 <li>Ruby on Rails</li>
                 <li>RSPec</li>
-                <li>CapyBara</li>
-                <li>Selenium</li>
+                <li>React</li>
               </ul>
             </section>
           </article>
@@ -120,9 +111,8 @@
           <article class="skills">
             <h3>Skills</h3>
             <ul>
-              <li>Codekit</li>
               <li>Github</li>
-              <li>Codepen</li>
+              <li>Git</li>
               <li>GitLab</li>
               <li>Terminal</li>
             </ul>
@@ -136,25 +126,25 @@
           </div>
           <ul class="icons-section icons-section-mid">
             <li>
-              <a href=""><img src="images/git.svg" alt="GitHub Logo" /> </a>
+              <a href="https://github.com/johnkioko" Target="_blank"><img src="images/git.svg" alt="GitHub Logo" /> </a>
             </li>
             <li>
-              <a href=""
+              <a href="https://www.linkedin.com/in/johnmutisya/" Target="_blank"
                 ><img src="images/linkedin.svg" alt="LinkedIn Logo"
               /></a>
             </li>
-            <li>
+            <!-- <li>
               <a href=""
                 ><img src="images/othericon.svg" alt="Social media icon" />
               </a>
-            </li>
+            </li> -->
             <li>
-              <a href=""
+              <a href="https://twitter.com/John_Web_Dev" Target="_blank"
                 ><img src="images/twitter.svg" alt="Twitter logo" />
               </a>
             </li>
             <li>
-              <a href=""><img src="images/micon.svg" alt="Medium logo" /> </a>
+              <a href="https://medium.com/@kiokoj81" Target="_blank"><img src="images/micon.svg" alt="Medium logo" /> </a>
             </li>
           </ul>
           <div class="arrow-bottom">
@@ -173,61 +163,62 @@
             <h2 class="recent-mobile">MY RECENT WORK</h2>
             <h2 class="recent-desk">My recent work</h2>
           </article>
-          <section id="project-list"></section>
+          <section id="ellipse_19"></section>
           <section id="contact-me">
-            <article class="contact-info">
-              <h2 class="mobile_contact">CONTACT US</h2>
-              <h2 class="chat">Let's chat!</h2>
-              <p class="contact_description">
-                If you have an application you are interested in developing, a
-                feature that you need built or a project that needs coding. I’d
-                love to help with it
-              </p>
-            </article>
-      <form id="form" action="https://formspree.io/f/xlevdeyp" method="post">
-        <fieldset>
-        <input type="text" id="name" name="Name" placeholder="Text Input" required
-        maxlength="30"
-        />
-        <input type="email" id="email" name="email" placeholder="Please Enter Email" required
-        />
-        <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
-        <span id="error_msg"></span>
-        <button class="mobile-button" type="submit">Get in touch</button>
-        <button class="desk_button" type="submit">Send</button>
-      </fieldset>
-      </form>
-    </section> 
+              <article class="contact-info">
+                <h2 class="mobile_contact">CONTACT US</h2>
+                <h2 class="chat">Let's chat!</h2>
+                <p class="contact_description">
+                  Looking to develop an app, build a feature, or code a project?
+                  I can help! Send me an email using the contact form below
+                                  to get started.
+                </p>
+              </article>
+                <form id="form" action="https://formspree.io/f/xlevdeyp" method="post">
+                  <fieldset>
+                  <input type="text" id="name" name="Name" placeholder="Text Input" required
+                  maxlength="30"
+                  />
+                  <input type="email" id="email" name="email" placeholder="Please Enter Email" required
+                  />
+                  <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+                  <span id="error_msg"></span>
+                  <button class="mobile-button" type="submit">Get in touch</button>
+                  <button class="desk_button" type="submit">Get in touch</button>
+                </fieldset>
+                </form>
+            </section> 
          <div class="footer-border"></div>
         </section>
+
         <footer class="footer">
           <div class="border"></div>
           <div class="icons-section-footer">
             <ul class="icons-section icons-section-bottom">
               <li class="git">
-                <a href=""><img src="images/git.svg" alt="Github icon" /> </a>
+                <a href="https://github.com/johnkioko" Target="_blank"><img src="images/git.svg" alt="Github icon" /> </a>
               </li>
               <li class="linkedin">
-                <a href=""
+                <a href="https://www.linkedin.com/in/johnmutisya/" Target="_blank"
                   ><img src="images/linkedin.svg" alt="LinkedIn icon"
                 /></a>
               </li>
-              <li class="othericon">
+              <!-- <li class="othericon">
                 <a href=""
                   ><img src="images/othericon.svg" alt="social media icon" />
                 </a>
-              </li>
+              </li> -->
               <li class="twitter">
-                <a href=""
+                <a href="https://twitter.com/John_Web_Dev" Target="_blank"
                   ><img src="images/twitter.svg" alt="Twitter icon" />
                 </a>
               </li>
               <li class="micon">
-                <a href=""><img src="images/micon.svg" alt="Medium Icon" /> </a>
+                <a href="https://medium.com/@kiokoj81" Target="_blank"><img src="images/micon.svg" alt="Medium Icon" /> </a>
               </li>
             </ul>
-            <div class="footer-heading">
-              <h2 class="footer-heading">kiokoj81@gmail.com</h2>
+            <div class="footer-header">
+              <a href="#contact-me"><h2 class="footer-heading">kiokoj81@gmail.com</h2></a>
             </div>
           </div>
         </footer>
