@@ -115,10 +115,10 @@ const modalContent = (project) => {
 
   <section id="button-group">
     <button class="source-button">
-      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src="images/Icon.png" alt="live icon"></a></span>
+      <span><a href=${project.linkDemo} Target="_blank">See demo <img id="live-icon" src='images/Icon.png' alt="live icon"></a></span>
     </button>
     <button type="button" class="source-button">
-      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src="images/Vector.png" alt="source icon"></a></span>
+      <span><a href=${project.sourceCode} Target="_blank">See code <img class="github-icon" src='images/Vector.png' alt="source icon"></a></span>
     </button>
   </section>
 `;
