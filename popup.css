@@ -171,6 +171,10 @@ ul {
 /* Mobile Version */
 
 @media only screen and (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .brand {
     text-align: center;
     padding: 6px;
@@ -413,14 +417,14 @@ hr {
   position: relative;
 }
 
-.ellipse_18 {
+/* .ellipse_18 {
   background-image: url('./images/Ellipse_18.png');
   background-repeat: no-repeat;
   position: absolute;
   top: -60px;
   width: 160px;
   height: 100%;
-}
+} */
 
 .skills h3 {
   display: flex;
@@ -566,6 +570,10 @@ fieldset {
 }
 
 @media screen and (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
   html,
   body {
     width: 100%;
@@ -740,13 +748,13 @@ fieldset {
     color: #fff;
   }
 
-  #headline {
+  /* #headline {
     position: relative;
     background-image: url('./images/circle_1_header.png'), url('./images/circle_2_header.png');
     background-repeat: no-repeat;
     background-position: left 1em, right 11em;
     background-size: 9em, 10em;
-  }
+  } */
 
   .headlines {
     margin-bottom: 12vh;

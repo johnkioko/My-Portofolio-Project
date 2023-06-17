@@ -3,6 +3,7 @@
     font-family: "Roboto", sans-serif;
     list-style: none;
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   * {
@@ -530,6 +531,10 @@
     gap: 5px;
   }
 
+  .footer-header a {
+    text-decoration: none;
+  }
+
   .footer-heading {
     padding-top: 0;
     margin-top: -15px;
@@ -541,6 +546,7 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -548,6 +554,10 @@
     margin: 0;
     padding: 0;
     background: #191765;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   .main-wrapper {
@@ -991,5 +1001,9 @@
 
   .ellipse {
     display: none;
+  }
+  
+  .footer-header a {
+    text-decoration: none;
   }
 }
