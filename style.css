@@ -153,23 +153,6 @@
     display: none;
   }
 
- /* .eclipse-1 {
-    position: absolute;
-    height: 250px;
-    width: 100px;
-    left: 0;
-    top: 100px;
-  }
-
-  .ellipse-2 {
-    background-image: url("images/Ellipse_19.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    right: 0;
-  } */
-
   .header-section-heading {
     display: flex;
     justify-content: center;
@@ -816,44 +799,11 @@
     height: 40px;
   }
 
-  /* .worklist {
-    display: flex;
-  }
-
-  .my-work {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
-    padding: 0;
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .my-work p {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    margin-left: 2%;
-    color: #9390ff;
-  }
-
-  .my-work-divider {
-    width: 98%;
-    margin: 2em auto;
-    margin-bottom: 6em;
-    margin-left: 2%;
-    border: 1px solid #646369;
-  } */
-
   .span {
     width: 1px;
     height: 40px;
     background: #555;
   }
-
-  
 
   #Contact {
     display: flex;
