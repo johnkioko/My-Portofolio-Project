@@ -628,6 +628,7 @@
   .eclipse-1,
   .white-bg,
   .mobile-span,
+  .ellipse ,
   .ellipse-2 {
     display: none;
   }
@@ -947,10 +948,6 @@
   .img_placeholder {
     height: 400px;
     width: 500px;
-  }
-
-  .ellipse {
-    display: none;
   }
   
   .footer-header a {
