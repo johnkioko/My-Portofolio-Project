@@ -139,6 +139,7 @@
   }
 
   .contact-us-h2-section h2,
+  .header-section-desktop-paragraph,
   .circle-1,
   .circle-2,
   .eclipse-1,
@@ -222,9 +223,9 @@
     padding: 0;
   }
 
-  .header-section-desktop-paragraph {
+  /* .header-section-desktop-paragraph {
     display: none;
-  }
+  } */
 
   .skills-section {
     width: 100%;
