@@ -630,7 +630,8 @@
   .white-bg,
   .mobile-span,
   .ellipse ,
-  .ellipse-2 {
+  .ellipse-2,
+  .recent-mobile {
     display: none;
   }
 
