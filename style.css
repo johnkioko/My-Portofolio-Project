@@ -631,7 +631,9 @@
   .mobile-span,
   .ellipse ,
   .ellipse-2,
-  .recent-mobile {
+  .recent-mobile,
+  .header-section-paragraph,
+  .arrow-bottom  {
     display: none;
   }
 
@@ -729,11 +731,6 @@
     line-height: 32px;
     text-align: center;
     color: #b3bac5;
-  }
-
-  .header-section-paragraph,
-  .arrow-bottom {
-    display: none;
   }
 
   .devider {
