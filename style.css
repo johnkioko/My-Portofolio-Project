@@ -600,10 +600,18 @@
     color: #fff;
   }
 
-  .menu-list-items {
+  .menu-list-items,
+  .header-section-desktop-paragraph,
+  .skills-section,
+  .icons-section-div,
+  .icons-section-mid,
+  .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .menu-list-items {
     width: 100%;
     height: auto;
     font-family: "Roboto", sans-serif;
@@ -720,9 +728,6 @@
   }
 
   .header-section-desktop-paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -748,17 +753,11 @@
   }
 
   .skills-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0 25%;
     margin: 0 auto;
   }
 
  .icons-section-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0;
     margin: 0 auto;
     margin-top: 4em;
@@ -789,9 +788,6 @@
   }
 
   .icons-section-mid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
@@ -879,9 +875,6 @@
   }
 
   .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin: 0 auto;
     width: 100%;
