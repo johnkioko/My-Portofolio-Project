@@ -21,10 +21,10 @@
   }
   
   .main-wrapper {
-    top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 0px;
     width: 375px;;
     height: auto;
     background-color: rgb(12, 12, 88);
@@ -43,10 +43,9 @@
 
   .navbar {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 375px;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 100000;
@@ -54,6 +53,9 @@
   }
 
   .nav-left {
+    display: flex;
+    align-items: center;
+    text-align: center;
     width: 95px;
     height: 16px;
     margin-left: 10px;
@@ -61,9 +63,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
   }
