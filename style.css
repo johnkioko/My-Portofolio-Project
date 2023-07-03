@@ -14,8 +14,8 @@
   
   body,
   .nav-left,
-  .navbar
-   {
+  .navbar,
+  .header-section-heading-2 {
     display: flex;
   }
 
@@ -189,15 +189,14 @@
   }
 
   .header-section-heading-2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
     color: #edecff;
     animation-name: heading-2;
     animation-duration: 5s;
