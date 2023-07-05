@@ -15,7 +15,8 @@
   body,
   .nav-left,
   .navbar,
-  .header-section-heading-2 {
+  .header-section-heading-2,
+  .header-section-paragraph {
     display: flex;
   }
 
@@ -213,7 +214,6 @@
   }
 
   .header-section-paragraph {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
