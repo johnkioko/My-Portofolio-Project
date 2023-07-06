@@ -16,7 +16,8 @@
   .nav-left,
   .navbar,
   .header-section-heading-2,
-  .header-section-paragraph {
+  .header-section-paragraph,
+  .main-wrapper {
     display: flex;
   }
 
@@ -29,7 +30,6 @@
   }
   
   .main-wrapper {
-    display: flex;
     flex-direction: column;
     align-items: center;
     top: 0px;
