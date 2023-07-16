@@ -15,6 +15,7 @@
   body,
   .nav-left,
   .navbar,
+  .header-section-heading,
   .header-section-heading-2,
   .header-section-paragraph,
   .main-wrapper,
@@ -161,7 +162,6 @@
   }
 
   .header-section-heading {
-    display: flex;
     justify-content: center;
     align-items: center;
     font-style: normal;
