@@ -20,7 +20,8 @@
   .header-section-paragraph,
   .main-wrapper,
   .col-header,
-  .menu-list-items {
+  .menu-list-items,
+  .see-projects-btn {
     display: flex;
   }
 
@@ -369,7 +370,6 @@
   }
 
   .see-projects-btn {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
