@@ -21,7 +21,8 @@
   .main-wrapper,
   .col-header,
   .menu-list-items,
-  .see-projects-btn {
+  .see-projects-btn,
+  .list-items {
     display: flex;
   }
 
@@ -256,7 +257,6 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 7.74194px 0;
