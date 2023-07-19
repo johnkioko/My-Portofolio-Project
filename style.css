@@ -22,7 +22,8 @@
   .col-header,
   .menu-list-items,
   .see-projects-btn,
-  .list-items {
+  .list-items,
+  .icons-section {
     display: flex;
   }
 
@@ -265,7 +266,6 @@
   }
 
   .icons-section {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 12px;
