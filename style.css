@@ -23,7 +23,8 @@
   .menu-list-items,
   .see-projects-btn,
   .list-items,
-  .icons-section {
+  .icons-section,
+  .arrow-bottom img {
     display: flex;
   }
 
@@ -279,7 +280,6 @@
   }
 
   .arrow-bottom img {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
