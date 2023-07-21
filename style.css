@@ -24,7 +24,8 @@
   .see-projects-btn,
   .list-items,
   .icons-section,
-  .arrow-bottom img {
+  .arrow-bottom img,
+  .my-work p  {
     display: flex;
   }
 
@@ -292,7 +293,6 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
     align-items: center;
     color: #9490ff;
     margin: 40px 0 20px;
