@@ -27,7 +27,8 @@
   .arrow-bottom img,
   .my-work p,
   .post-container,
-  .posts h2 {
+  .posts h2,
+  .arrow-bottom {
     display: flex;
   }
 
@@ -277,7 +278,6 @@
   }
 
   .arrow-bottom {
-    display: flex;
     flex-direction: column;
     margin-top: -10px;
   }
