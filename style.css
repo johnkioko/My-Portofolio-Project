@@ -28,7 +28,8 @@
   .my-work p,
   .post-container,
   .posts h2,
-  .arrow-bottom {
+  .arrow-bottom,
+  .footer {
     display: flex;
   }
 
@@ -489,7 +490,6 @@
   }
 
   .footer {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
