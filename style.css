@@ -30,7 +30,8 @@
   .posts h2,
   .arrow-bottom,
   .footer,
-  .posts {
+  .posts,
+  .posts .tags {
     display: flex;
   }
 
@@ -349,7 +350,6 @@
   }
 
   .posts .tags {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
