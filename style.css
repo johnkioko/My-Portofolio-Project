@@ -31,7 +31,8 @@
   .arrow-bottom,
   .footer,
   .posts,
-  .posts .tags {
+  .posts .tags,
+  .contactus-section {
     display: flex;
   }
 
@@ -393,7 +394,6 @@
 
   .contactus-section {
     font-family: "Roboto", sans-serif;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
