@@ -32,7 +32,8 @@
   .footer,
   .posts,
   .posts .tags,
-  .contactus-section {
+  .contactus-section,
+  .callme {
     display: flex;
   }
 
@@ -410,7 +411,6 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
