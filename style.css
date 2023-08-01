@@ -34,7 +34,8 @@
   .posts .tags,
   .contactus-section,
   .callme,
-  .form {
+  .form,
+  .contact-description {
     display: flex;
   }
 
@@ -426,7 +427,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
