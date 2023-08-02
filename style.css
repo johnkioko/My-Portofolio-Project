@@ -35,7 +35,8 @@
   .contactus-section,
   .callme,
   .form,
-  .contact-description {
+  .contact-description,
+  textarea {
     display: flex;
   }
 
@@ -461,7 +462,6 @@
   }
 
   textarea {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
