@@ -36,7 +36,8 @@
   .callme,
   .form,
   .contact-description,
-  textarea {
+  textarea,
+  .button {
     display: flex;
   }
 
@@ -469,7 +470,6 @@
   }
 
   .button {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
