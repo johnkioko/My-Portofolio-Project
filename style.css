@@ -563,8 +563,12 @@
     margin: 0 auto;
   }
 
-  .navbar {
+  .navbar,
+  .nav-left {
     display: flex;
+  }
+
+  .navbar {
     align-items: center;
     justify-content: space-between;
     width: 80%;
@@ -576,7 +580,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
