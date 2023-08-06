@@ -564,7 +564,13 @@
   }
 
   .navbar,
-  .nav-left {
+  .nav-left,
+  .menu-list-items,
+  .header-section-desktop-paragraph,
+  .skills-section,
+  .icons-section-div,
+  .icons-section-mid,
+  .footer {
     display: flex;
   }
 
@@ -608,7 +614,6 @@
   .icons-section-div,
   .icons-section-mid,
   .footer {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
