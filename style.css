@@ -571,7 +571,8 @@
   .icons-section-div,
   .icons-section-mid,
   .footer,
-  .menu-list {
+  .menu-list,
+  .header-section-wrapper {
     display: flex;
   }
 
@@ -653,7 +654,6 @@
   }
 
   .header-section-wrapper {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
