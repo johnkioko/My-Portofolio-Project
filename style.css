@@ -572,7 +572,8 @@
   .icons-section-mid,
   .footer,
   .menu-list,
-  .header-section-wrapper {
+  .header-section-wrapper,
+  .heading-section-header {
     display: flex;
   }
 
@@ -660,7 +661,6 @@
   }
 
   .heading-section-header {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3em;
