@@ -573,7 +573,8 @@
   .footer,
   .menu-list,
   .header-section-wrapper,
-  .heading-section-header {
+  .heading-section-header,
+  .arrow-left {
     display: flex;
   }
 
@@ -771,7 +772,6 @@
   }
 
   .arrow-left {
-    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
