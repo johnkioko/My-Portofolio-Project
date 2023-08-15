@@ -575,7 +575,8 @@
   .header-section-wrapper,
   .heading-section-header,
   .arrow-left,
-  .arrow-right {
+  .arrow-right,
+  .contact-us-h2-section {
     display: flex;
   }
 
@@ -817,7 +818,6 @@
   }
 
   .contact-us-h2-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
