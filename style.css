@@ -576,7 +576,8 @@
   .heading-section-header,
   .arrow-left,
   .arrow-right,
-  .contact-us-h2-section {
+  .contact-us-h2-section,
+  #Contact {
     display: flex;
   }
 
@@ -810,7 +811,6 @@
   }
 
   #Contact {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 114px 0;
