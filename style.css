@@ -578,6 +578,7 @@
   .arrow-right,
   .contact-us-h2-section,
   .contact-us-h2-section h2,
+  .form,
   #Contact {
     display: flex;
   }
@@ -849,7 +850,6 @@
   }
 
   .form {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
