@@ -579,6 +579,7 @@
   .contact-us-h2-section,
   .contact-us-h2-section h2,
   .form,
+  .button,
   #Contact {
     display: flex;
   }
@@ -871,7 +872,6 @@
   }
 
   .button {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
