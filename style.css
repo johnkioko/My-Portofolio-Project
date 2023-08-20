@@ -580,6 +580,7 @@
   .contact-us-h2-section h2,
   .form,
   .button,
+  .icons-section-footer,
   #Contact {
     display: flex;
   }
@@ -889,7 +890,6 @@
   }
 
   .icons-section-footer {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
