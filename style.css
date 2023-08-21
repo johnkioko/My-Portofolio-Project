@@ -581,6 +581,7 @@
   .form,
   .button,
   .icons-section-footer,
+  .icons-section-bottom,
   #Contact {
     display: flex;
   }
@@ -898,7 +899,6 @@
   }
 
   .icons-section-bottom {
-    display: flex;
     flex-direction: row;
     align-items: center;
     list-style-type: none;
