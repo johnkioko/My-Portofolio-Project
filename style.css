@@ -612,7 +612,6 @@
     color: #fff;
   }
 
-  .menu-list,
   .menu-list-items,
   .header-section-desktop-paragraph,
   .skills-section,
@@ -620,6 +619,17 @@
   .icons-section-mid,
   .footer {
     justify-content: center;
+    align-items: center;
+  }
+
+  .menu-list,
+  .menu-list-items,
+  .header-section-wrapper,
+  .header-section-desktop-paragraph,
+  .skills-section,
+  .icons-section-div,
+  .icons-section-mid,
+  .footer {
     align-items: center;
   }
 
@@ -665,7 +675,6 @@
 
   .header-section-wrapper {
     flex-direction: column;
-    align-items: center;
     margin: 0 auto;
   }
 
