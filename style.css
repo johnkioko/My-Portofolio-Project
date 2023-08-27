@@ -630,6 +630,7 @@
   .skills-section,
   .icons-section-div,
   .icons-section-mid,
+  .arrow-left,
   .footer {
     align-items: center;
   }
@@ -791,7 +792,6 @@
   .arrow-left {
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
     margin: 0 auto;
     padding: 4px 0;
     gap: 12px;
