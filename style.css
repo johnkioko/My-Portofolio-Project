@@ -631,6 +631,7 @@
   .icons-section-div,
   .icons-section-mid,
   .arrow-left,
+  .form,
   .footer {
     align-items: center;
   }
@@ -863,7 +864,6 @@
 
   .form {
     flex-direction: column;
-    align-items: center;
     padding: 0;
     margin-top: 88px;
     gap: 20px;
