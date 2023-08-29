@@ -631,6 +631,7 @@
   .icons-section-div,
   .icons-section-mid,
   .arrow-left,
+  .arrow-right,
   .form,
   .footer {
     align-items: center;
@@ -803,7 +804,6 @@
   .arrow-right {
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     padding: 4px 0;
     margin: 0 auto;
     gap: 12px;
