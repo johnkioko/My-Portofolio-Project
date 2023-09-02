@@ -633,7 +633,8 @@
   .arrow-left,
   .arrow-right,
   .form,
-  .footer {
+  .footer,
+  #Contact {
     align-items: center;
   }
 
@@ -827,7 +828,6 @@
 
   #Contact {
     flex-direction: column;
-    align-items: center;
     padding: 114px 0;
     gap: 20px;
   }
