@@ -636,6 +636,7 @@
   .footer,
   .contact-us-h2-section,
   .contact-us-h2-section h2,
+  .button,
   #Contact {
     align-items: center;
   }
@@ -884,7 +885,6 @@
 
   .button {
     flex-direction: row;
-    align-items: center;
     padding: 12px;
     gap: 10px;
     background: #9390ff;
