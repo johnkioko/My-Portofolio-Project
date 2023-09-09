@@ -629,6 +629,7 @@
   .skills-section,
   .icons-section-div,
   .icons-section-mid,
+  .icons-section-bottom,
   .arrow-left,
   .arrow-right,
   .form,
@@ -908,7 +909,6 @@
 
   .icons-section-bottom {
     flex-direction: row;
-    align-items: center;
     list-style-type: none;
     border: none;
     padding: 0;
