@@ -587,7 +587,6 @@
   }
 
   .navbar {
-    align-items: center;
     justify-content: space-between;
     width: 80%;
   }
@@ -638,6 +637,7 @@
   .contact-us-h2-section,
   .contact-us-h2-section h2,
   .button,
+  .navbar,
   #Contact {
     align-items: center;
   }
