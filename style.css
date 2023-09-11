@@ -545,7 +545,6 @@
 
   .main-wrapper {
     max-width: 90%;
-    margin: 0 auto;
   }
 
   header {
@@ -556,6 +555,7 @@
     background: #191765;
   }
 
+  .main-wrapper,
   .contactus-section,
   .footer,
   .header-section-wrapper,
