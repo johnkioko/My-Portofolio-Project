@@ -559,7 +559,8 @@
   .contactus-section,
   .footer,
   .header-section-wrapper,
-  .navbar {
+  .navbar,
+  .devider-2  {
     margin: 0 auto;
   }
 
@@ -780,7 +781,6 @@
   .devider-2 {
     border: 1px solid #646369;
     width: 448px;
-    margin: 0 auto;
     margin-top: 30px;
   }
 
