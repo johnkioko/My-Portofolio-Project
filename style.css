@@ -740,7 +740,7 @@
     }
   }
 
-  .circle-1 {
+  /* .circle-1 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -758,7 +758,7 @@
     margin-top: 250px;
     right: 80px;
     filter: blur(30px);
-  }
+  } */
 
   .header-section-desktop-paragraph {
     margin: 0 auto;
