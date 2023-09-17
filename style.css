@@ -562,7 +562,8 @@
   .header-section-desktop-paragraph,
   .navbar,
   .devider-2,
-  .skills-section {
+  .skills-section,
+  .icons-section-div {
     margin: 0 auto;
   }
 
@@ -791,7 +792,6 @@
 
  .icons-section-div {
     padding: 0;
-    margin: 0 auto;
     margin-top: 4em;
   }
 
