@@ -564,7 +564,8 @@
   .devider-2,
   .skills-section,
   .icons-section-div,
-  .arrow-left {
+  .arrow-left,
+  .arrow-right {
     margin: 0 auto;
   }
 
@@ -809,7 +810,6 @@
     flex-direction: row;
     justify-content: flex-end;
     padding: 4px 0;
-    margin: 0 auto;
     gap: 12px;
     width: 76px;
     height: 40px;
