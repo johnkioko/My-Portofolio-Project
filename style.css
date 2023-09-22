@@ -566,7 +566,8 @@
   .icons-section-div,
   .arrow-left,
   .arrow-right,
-  .icons-section-footer {
+  .icons-section-footer,
+  .icons-section-bottom {
     margin: 0 auto;
   }
 
@@ -910,7 +911,6 @@
     list-style-type: none;
     border: none;
     padding: 0;
-    margin: 0 auto;
     width: 200px;
     height: 40px;
   }
