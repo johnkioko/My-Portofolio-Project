@@ -567,7 +567,8 @@
   .arrow-left,
   .arrow-right,
   .icons-section-footer,
-  .icons-section-bottom {
+  .icons-section-bottom,
+  .icons-section-mid {
     margin: 0 auto;
   }
 
@@ -820,7 +821,6 @@
   .icons-section-mid {
     list-style-type: none;
     padding: 0;
-    margin: 0 auto;
     width: 200px;
     height: 40px;
   }
