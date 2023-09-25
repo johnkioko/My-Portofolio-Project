@@ -568,7 +568,8 @@
   .arrow-right,
   .icons-section-footer,
   .icons-section-bottom,
-  .icons-section-mid {
+  .icons-section-mid,
+  .footer-heading {
     margin: 0 auto;
   }
 
@@ -918,7 +919,6 @@
   .footer-heading {
     width: 221px;
     height: 29px;
-    margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
