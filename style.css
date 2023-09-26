@@ -749,7 +749,7 @@
     }
   }
 
-  /* .circle-1 {
+  .circle-1 {
     position: absolute;
     width: 180px;
     height: 180px;
@@ -757,7 +757,7 @@
     top: 150px;
   }
 
-  .circle-2 {
+  /* .circle-2 {
     position: absolute;
     background-image: url("images/circle-2.svg");
     background-color: #edecff;
