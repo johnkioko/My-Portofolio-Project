@@ -417,15 +417,6 @@ hr {
   position: relative;
 }
 
-/* .ellipse_18 {
-  background-image: url('./images/Ellipse_18.png');
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -60px;
-  width: 160px;
-  height: 100%;
-} */
-
 .skills h3 {
   display: flex;
   justify-content: flex-start;
